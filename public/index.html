@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Walmart prices</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/hub-ui.css" />
+  <link rel="stylesheet" href="/walmart-prices/price.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <h1>Walmart prices</h1>
+        <p>Fetch confirmed Walmart prices, edit proposed prices, then send updates. A saved price is not live until Walmart accepts it.</p>
+      </div>
+      <nav class="top-nav" aria-label="Sections">
+        <a href="/">Hub</a>
+        <a href="/#stepWalmartUpdate">Listing update</a>
+        <a href="/walmart-prices/" aria-current="page">Prices</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="price-main">
+    <section class="stats" id="stats" aria-live="polite"></section>
+
+    <section class="price-panel">
+      <div class="toolbar price-toolbar" id="toolbar">
+        <button type="button" id="btnFetch">Fetch products from Walmart</button>
+        <button type="button" id="btnUpdateSelected" class="secondary" disabled>Update selected</button>
+        <button type="button" id="btnUpdateFilter" class="secondary" disabled>Update matching filter</button>
+        <button type="button" id="btnUpdateAll" class="danger" disabled>Update all eligible</button>
+        <button type="button" id="btnRetryFailed" class="secondary" disabled>Retry failed</button>
+      </div>
+      <div class="sheet-bar">
+        <div class="filter-row" role="group" aria-label="SKU series">
+          <button type="button" class="chip" data-prefix="all">All <span data-count="all"></span></button>
+          <button type="button" class="chip" data-prefix="is">IS- <span data-count="is"></span></button>
+          <button type="button" class="chip" data-prefix="mr">MR- <span data-count="mr"></span></button>
+          <button type="button" class="chip" data-prefix="exclude">Other <span data-count="exclude"></span></button>
+        </div>
+        <div class="filter-row" id="mrFilters" role="group" aria-label="MR suffix" hidden>
+          <button type="button" class="chip" data-mr="any">All MR <span data-count="mrAll"></span></button>
+          <button type="button" class="chip" data-mr="01FA">01FA <span data-count="fa"></span></button>
+          <button type="button" class="chip" data-mr="04HE">04HE <span data-count="he"></span></button>
+        </div>
+        <input id="search" type="search" placeholder="Search SKU" autocomplete="off" />
+        <div class="download-inline">
+          <span id="downloadScope">All</span>
+          <label class="adjust">Reduce
+            <input id="reducePercent" type="number" min="1" max="99" step="1" value="50" inputmode="numeric" aria-label="Percent to reduce" />
+            %
+          </label>
+          <button type="button" id="btnReduce" class="secondary">Set proposed</button>
+          <button type="button" id="btnXlsx" class="secondary">Excel</button>
+          <button type="button" id="btnCsv" class="secondary">CSV</button>
+        </div>
+        <button type="button" class="text-btn" id="btnClearFilters">Clear</button>
+        <label class="meta token-label" id="tokenLabel" hidden>Admin token
+          <input id="adminToken" type="password" autocomplete="off" />
+        </label>
+      </div>
+
+      <div class="job-bar" id="jobBar" hidden>
+        <div class="job-bar-fill" id="jobFill"></div>
+        <p class="meta" id="jobText"></p>
+      </div>
+      <p class="banner" id="banner" hidden></p>
+
+      <div class="table-wrap">
+        <table class="price-table">
+          <thead>
+            <tr>
+              <th><input id="checkPage" type="checkbox" aria-label="Select all products on this page" /></th>
+              <th><button type="button" class="sort" data-sort="sku">SKU</button></th>
+              <th>Product</th>
+              <th><button type="button" class="sort" data-sort="current">Current Walmart price</button></th>
+              <th><button type="button" class="sort" data-sort="proposed">Proposed price</button></th>
+              <th>Difference</th>
+              <th><button type="button" class="sort" data-sort="status">Update status</button></th>
+              <th><button type="button" class="sort" data-sort="fetched">Last fetched</button></th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <div class="pager">
+        <button type="button" class="secondary" id="btnPrev" disabled>Previous</button>
+        <span class="meta" id="pageMeta"></span>
+        <button type="button" class="secondary" id="btnNext" disabled>Next</button>
+        <label class="meta">Page size
+          <select id="pageSize">
+            <option value="25">25</option>
+            <option value="50" selected>50</option>
+            <option value="100">100</option>
+          </select>
+        </label>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="confirmDialog">
+    <form method="dialog" id="confirmForm">
+      <h2 id="confirmTitle">Send prices to Walmart</h2>
+      <p id="confirmScope"></p>
+      <p class="meta">This submits prices to Walmart. The current price column changes only after Walmart’s catalog confirms the new amount.</p>
+      <div class="table-wrap">
+        <table class="price-table">
+          <thead>
+            <tr><th>SKU</th><th>Current</th><th>Proposed</th><th>Difference</th></tr>
+          </thead>
+          <tbody id="confirmRows"></tbody>
+        </table>
+      </div>
+      <p class="meta" id="confirmMore"></p>
+      <div class="dialog-actions">
+        <button type="button" class="secondary" id="confirmCancel">Cancel</button>
+        <button type="submit" id="confirmGo" value="go">Update on Walmart</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="editDialog">
+    <form id="editForm">
+      <h2>Edit proposed price</h2>
+      <p class="meta" id="editSku"></p>
+      <p>Current Walmart price: <strong id="editCurrent"></strong></p>
+      <label>Proposed price
+        <input id="editPrice" type="number" min="0.01" step="0.01" required />
+      </label>
+      <p class="meta" id="editDiff"></p>
+      <div class="dialog-actions">
+        <button type="button" class="secondary" id="editCancel">Cancel</button>
+        <button type="submit" class="secondary" id="editSave">Save</button>
+        <button type="button" id="editUpdate">Save and update on Walmart</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script type="module" src="/walmart-prices/app.js"></script>
+</body>
+</html>

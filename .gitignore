@@ -1,13 +1,6 @@
 node_modules/
 .env
-data/sheets/*
-!data/sheets/.gitkeep
-data/jobs/*
-!data/jobs/.gitkeep
-data/reports/*
-!data/reports/.gitkeep
-data/logs/*
-!data/logs/.gitkeep
+
 .cursor/
 .cursorrules/*
-!cursorrules/.gitkeep
+!cursorrules/.gitkee

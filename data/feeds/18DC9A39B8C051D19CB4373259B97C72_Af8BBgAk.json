@@ -1,0 +1,17 @@
+{
+  "feedId": "18DC9A39B8C051D19CB4373259B97C72@Af8BBgAk",
+  "checkedAt": "2026-10-13T14:15:33.421Z",
+  "feedStatus": "PROCESSED",
+  "itemsReceived": 1,
+  "itemsSucceeded": 1,
+  "itemsFailed": 0,
+  "itemsProcessing": 0,
+  "feedDate": "",
+  "items": [
+    {
+      "sku": "MR-11601-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    }
+  ]
+}

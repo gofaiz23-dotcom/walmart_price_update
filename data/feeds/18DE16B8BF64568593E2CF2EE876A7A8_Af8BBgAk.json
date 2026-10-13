@@ -1,0 +1,17 @@
+{
+  "feedId": "18DE16B8BF64568593E2CF2EE876A7A8@Af8BBgAk",
+  "checkedAt": "2026-10-13T13:19:01.051Z",
+  "feedStatus": "PROCESSED",
+  "itemsReceived": 1,
+  "itemsSucceeded": 0,
+  "itemsFailed": 1,
+  "itemsProcessing": 0,
+  "feedDate": "",
+  "items": [
+    {
+      "sku": "PROBE-NOT-A-REAL-SKU",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    }
+  ]
+}

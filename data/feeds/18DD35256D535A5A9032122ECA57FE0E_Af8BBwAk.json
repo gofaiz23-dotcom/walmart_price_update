@@ -1,0 +1,522 @@
+{
+  "feedId": "18DD35256D535A5A9032122ECA57FE0E@Af8BBwAk",
+  "checkedAt": "2026-10-13T13:19:01.992Z",
+  "feedStatus": "PROCESSED",
+  "itemsReceived": 102,
+  "itemsSucceeded": 85,
+  "itemsFailed": 17,
+  "itemsProcessing": 0,
+  "feedDate": "",
+  "items": [
+    {
+      "sku": "81639-LL-SLC-3PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81639-LL-SL-2PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81640-LL-SLC-3PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81640-LL-SL-2PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81641-LL-SLC-3PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81641-LL-SL-2PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "84513-LL-SL-2PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81639-S-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81640-S-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81641-S-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "84513-S-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "87823-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "87825-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81370LG-S-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "89714-S-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81639-L-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81640-L-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81641-L-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "84513-L-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "89715-L-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81370-L-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "89727LG-L-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81639-C-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81640-C-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81641-C-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "89727-C-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "89720-C-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "V81347-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "V81395BK-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "V81395GY-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "81402-3-LL-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "81402-4C-LL-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "81402-5D-LL-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "81402-6-LL-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "V81440-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "V81441-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "V81446-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "V81455-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "V81456-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "V81457-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "81610-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "81642-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81643-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81644-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81650-1-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81650-2-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81650-3-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81650-4-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "81802-5-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "V83000-LL-2PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "V83001-LL-2PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "V83005-LL-2PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "83200-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "83220-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "88019-5-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "89116-1-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "89116-4-LL-1PC-FRN",
+      "ingestionStatus": "DATA_ERROR",
+      "error": "The system cannot perform the update on the offer. The SKU and 'ProductId' combination is incorrect. Update the SKU or ‘ProductId' and reattempt. If the issue persists, contact the support team at https://sellerhelp.walmart.com/s/."
+    },
+    {
+      "sku": "89121-13-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "89295-1-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "89297-1-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "89332LG-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "89427-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "A89440-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "V89621-LL-1PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30002-2-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30002-3-LL-9PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30016-4-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30018-1-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30018-4-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30022-3-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30023-3-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30024-1-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30030-SET-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30030-2-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30035-SET2-LL-6P-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30035-SET-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30040-SET-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30045-1-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30045-2-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30002-4-LL-9PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30055-2-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30060-1-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30060-2-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30060-3-LL-6PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30060-4-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30062-1-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30062-2-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30062-3-LL-6PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30062-4-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30064-1-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30064-2-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30064-3-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30066-1-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30066-2-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30066-3-LL-6PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30066-4-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30068-1-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30068-2-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30068-3-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30070-1-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30070-2-LL-7PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "30070-3-LL-5PC-FRN",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    }
+  ]
+}

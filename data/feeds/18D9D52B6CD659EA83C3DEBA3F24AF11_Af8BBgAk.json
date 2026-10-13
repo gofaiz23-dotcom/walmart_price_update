@@ -1,0 +1,17 @@
+{
+  "feedId": "18D9D52B6CD659EA83C3DEBA3F24AF11@Af8BBgAk",
+  "checkedAt": "2026-10-13T14:15:31.000Z",
+  "feedStatus": "PROCESSED",
+  "itemsReceived": 1,
+  "itemsSucceeded": 1,
+  "itemsFailed": 0,
+  "itemsProcessing": 0,
+  "feedDate": "",
+  "items": [
+    {
+      "sku": "5114BK-K1pc-CRM-SHB",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    }
+  ]
+}

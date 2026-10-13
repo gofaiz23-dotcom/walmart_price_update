@@ -18,9 +18,7 @@
         <p>Fetch confirmed Walmart prices, edit proposed prices, then send updates. A saved price is not live until Walmart accepts it.</p>
       </div>
       <nav class="top-nav" aria-label="Sections">
-        <a href="/">Hub</a>
-        <a href="/#stepWalmartUpdate">Listing update</a>
-        <a href="/walmart-prices/" aria-current="page">Prices</a>
+        <a href="/walmart-prices/feeds/">Feed status</a>
       </nav>
     </div>
   </header>
@@ -51,11 +49,15 @@
         <input id="search" type="search" placeholder="Search SKU" autocomplete="off" />
         <div class="download-inline">
           <span id="downloadScope">All</span>
-          <label class="adjust">Reduce
-            <input id="reducePercent" type="number" min="1" max="99" step="1" value="50" inputmode="numeric" aria-label="Percent to reduce" />
+          <label class="adjust">Lower proposed by
+            <input id="reducePercent" type="number" min="1" max="99" step="1" inputmode="numeric" aria-label="Percent to lower the proposed price" />
             %
           </label>
-          <button type="button" id="btnReduce" class="secondary">Set proposed</button>
+          <button type="button" id="btnReduce" class="secondary">Fill table</button>
+          <button type="button" id="btnClearProposed" class="secondary">Clear proposed</button>
+          <button type="button" id="btnSample" class="secondary">Sample sheet</button>
+          <button type="button" id="btnUploadSheet" class="secondary">Upload sheet</button>
+          <input id="priceSheetFile" type="file" accept=".xlsx,.csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,text/csv" hidden />
           <button type="button" id="btnXlsx" class="secondary">Excel</button>
           <button type="button" id="btnCsv" class="secondary">CSV</button>
         </div>
@@ -105,24 +107,22 @@
   </main>
 
   <dialog id="confirmDialog">
-    <form method="dialog" id="confirmForm">
-      <h2 id="confirmTitle">Send prices to Walmart</h2>
-      <p id="confirmScope"></p>
-      <p class="meta">This submits prices to Walmart. The current price column changes only after Walmart’s catalog confirms the new amount.</p>
-      <div class="table-wrap">
-        <table class="price-table">
-          <thead>
-            <tr><th>SKU</th><th>Current</th><th>Proposed</th><th>Difference</th></tr>
-          </thead>
-          <tbody id="confirmRows"></tbody>
-        </table>
-      </div>
-      <p class="meta" id="confirmMore"></p>
-      <div class="dialog-actions">
-        <button type="button" class="secondary" id="confirmCancel">Cancel</button>
-        <button type="submit" id="confirmGo" value="go">Update on Walmart</button>
-      </div>
-    </form>
+    <h2 id="confirmTitle">Send these prices to Walmart?</h2>
+    <p id="confirmScope"></p>
+    <p class="meta">Yes sends them. No leaves the prices in the table only.</p>
+    <div class="table-wrap">
+      <table class="price-table">
+        <thead>
+          <tr><th>SKU</th><th>Current</th><th>Proposed</th><th>Difference</th></tr>
+        </thead>
+        <tbody id="confirmRows"></tbody>
+      </table>
+    </div>
+    <p class="meta" id="confirmMore"></p>
+    <div class="dialog-actions">
+      <button type="button" class="secondary" id="confirmCancel">No</button>
+      <button type="button" id="confirmGo">Yes, send to Walmart</button>
+    </div>
   </dialog>
 
   <dialog id="editDialog">
@@ -131,8 +131,9 @@
       <p class="meta" id="editSku"></p>
       <p>Current Walmart price: <strong id="editCurrent"></strong></p>
       <label>Proposed price
-        <input id="editPrice" type="number" min="0.01" step="0.01" required />
+        <input id="editPrice" type="number" min="0.01" step="0.01" />
       </label>
+      <p class="meta">Leave this blank and save to remove the proposed price.</p>
       <p class="meta" id="editDiff"></p>
       <div class="dialog-actions">
         <button type="button" class="secondary" id="editCancel">Cancel</button>

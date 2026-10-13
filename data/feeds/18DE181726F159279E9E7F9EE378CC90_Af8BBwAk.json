@@ -1,0 +1,5012 @@
+{
+  "feedId": "18DE181726F159279E9E7F9EE378CC90@Af8BBwAk",
+  "checkedAt": "2026-10-13T13:04:41.801Z",
+  "feedStatus": "PROCESSED",
+  "itemsReceived": 1000,
+  "itemsSucceeded": 1000,
+  "itemsFailed": 0,
+  "itemsProcessing": 0,
+  "feedDate": "",
+  "items": [
+    {
+      "sku": "MR-4172-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4173-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4174-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4175-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4184-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4185-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4190-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4191-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4192-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4193-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4194-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4199-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4200-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4201-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4202-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4203-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4213-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4214-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4215-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4216-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4217-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4218-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4219-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4220-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4221-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4222-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4223-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4224-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4225-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4226-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4227-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4228-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4229-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4230-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4231-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4232-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4233-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4234-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4235-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4236-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4237-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4238-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4239-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4240-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4241-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4242-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4243-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4244-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4245-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4246-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4247-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4248-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4249-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4250-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4251-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4260-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4261-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4269-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4278-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4279-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4280-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4281-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4282-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4284-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4285-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4286-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4287-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4288-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4289-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4290-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4291-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4292-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4293-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4294-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4295-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4296-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4297-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4298-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4299-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4300-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4301-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4302-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4303-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4304-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4305-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4306-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4307-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4323-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4324-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4325-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4326-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4327-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4328-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4332-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4333-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4334-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4335-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4336-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4337-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4341-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4342-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4343-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4344-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4345-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4346-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4347-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4348-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4349-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4350-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4351-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4352-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4353-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4354-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4355-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4368-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4369-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4370-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4371-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4372-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4373-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4374-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4375-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4376-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4377-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4378-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4379-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4380-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4381-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4382-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4383-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4384-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4385-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4386-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4387-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4388-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4389-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4390-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4391-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4392-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4393-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4394-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4395-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4396-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4397-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4398-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4399-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4400-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4401-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4402-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4403-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4409-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4423-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4424-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4425-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4426-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4427-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4428-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4429-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4430-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4431-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4461-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4462-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4470-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4471-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4479-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4480-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4488-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4489-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4503-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4504-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4505-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4506-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4507-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4508-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4512-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4513-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4514-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4515-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4516-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4517-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4531-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4532-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4533-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4534-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4535-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4536-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4540-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4541-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4542-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4543-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4544-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4545-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4547-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4553-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4554-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4555-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4556-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4557-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4558-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4559-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4560-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4561-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4562-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4563-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4564-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4565-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4566-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4567-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4568-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4569-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4571-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4583-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4584-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4585-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4586-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4587-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4588-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4589-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4590-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4592-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4594-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4595-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4596-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4597-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4598-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4599-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4601-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4603-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4604-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4605-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4606-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4607-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4608-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4610-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4613-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4614-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4615-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4616-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4617-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4619-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4621-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4631-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4632-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4633-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4634-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4635-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4636-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4637-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4638-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4642-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4643-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4644-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4645-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4646-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4647-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4651-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4652-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4653-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4654-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4655-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4656-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4660-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4661-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4662-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4663-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4664-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4665-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4669-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4673-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4687-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4688-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4696-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4697-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4705-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4706-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4714-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4715-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4725-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4726-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4735-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4744-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4753-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4762-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4763-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4764-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4765-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4767-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4768-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4769-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4771-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4773-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4774-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4776-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4777-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4778-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4780-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4782-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4792-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4793-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4802-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4811-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4820-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4830-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4831-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4840-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4849-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4858-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4867-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4868-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4869-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4874-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4876-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4878-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4883-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4885-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4887-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4892-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4894-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4904-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4905-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4906-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4911-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4913-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4915-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4920-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4922-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4924-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4932-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4933-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4934-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4939-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4941-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4943-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4948-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4950-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4952-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4961-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4962-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4967-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4969-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4971-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4976-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4978-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4980-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4989-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4990-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4991-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4994-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4995-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4996-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4997-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4998-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-4999-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5000-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5003-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5004-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5005-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5006-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5007-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5009-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5012-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5013-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5014-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5015-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5016-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5017-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5018-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5028-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5029-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5030-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5031-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5032-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5033-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5034-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5035-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5037-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5039-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5040-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5041-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5042-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5043-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5044-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5046-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5048-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5049-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5050-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5051-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5052-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5053-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5055-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5057-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5058-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5059-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5060-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5061-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5062-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5064-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5066-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5077-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5078-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5086-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5087-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5095-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5096-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5104-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5105-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5113-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5114-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5125-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5126-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5134-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5135-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5143-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5144-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5152-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5153-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5161-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5162-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5165-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5168-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5170-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5171-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5172-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5173-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5174-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5175-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5176-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5177-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5179-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5181-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5182-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5183-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5184-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5185-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5186-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5188-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5190-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5194-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5197-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5198-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5201-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5202-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5203-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5205-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5206-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5207-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5209-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5211-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5212-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5213-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5214-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5215-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5216-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5218-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5220-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5221-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5222-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5223-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5224-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5225-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5227-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5229-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5230-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5231-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5232-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5233-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5234-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5236-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5238-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5249-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5250-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5257-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5259-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5264-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5266-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5268-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5273-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5275-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5277-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5282-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5284-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5286-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5294-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5295-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5296-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5299-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5300-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5301-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5303-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5305-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5306-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5307-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5308-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5309-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5310-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5312-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5314-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5323-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5324-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5325-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5328-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5329-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5330-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5332-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5337-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5338-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5339-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5341-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5343-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5346-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5347-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5348-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5350-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5352-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5358-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5359-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5360-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5362-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5367-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5368-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5369-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5371-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5373-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5376-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5377-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5378-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5380-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5382-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5388-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5389-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5392-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5393-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5394-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5397-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5398-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5399-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5401-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5403-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5406-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5407-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5408-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5410-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5412-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5418-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5419-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5420-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5422-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5424-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5427-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5428-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5429-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5431-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5432-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5433-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5436-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5437-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5438-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5440-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5442-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5450-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5451-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5452-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5455-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5456-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5457-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5458-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5459-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5460-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5461-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5464-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5465-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5466-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5467-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5468-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5469-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5479-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5480-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5485-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5487-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5489-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5494-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5496-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5498-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5505-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5509-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5514-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5516-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5518-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5528-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5529-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5530-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5531-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5532-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5533-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5534-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5535-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5536-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5537-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5538-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5546-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5547-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5548-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5549-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5550-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5551-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5552-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5553-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5554-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5555-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5556-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5564-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5565-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5566-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5569-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5570-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5571-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5572-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5573-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5574-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5576-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5577-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5578-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5579-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5580-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5581-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5582-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5583-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5584-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5592-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5593-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5594-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5598-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5599-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5600-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5601-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5602-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5603-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5604-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5605-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5606-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5607-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5608-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5609-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5610-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5611-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5612-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5618-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5620-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5621-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5622-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5623-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5624-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5625-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5626-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5627-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5628-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5629-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5630-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5631-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5632-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5633-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5634-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5635-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5636-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5637-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5638-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5639-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5640-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5758-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5761-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5762-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5763-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5764-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5765-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5766-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5767-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5768-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5770-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5772-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5775-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5776-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5777-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5779-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5781-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5782-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5783-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5784-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5785-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5786-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5787-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5788-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5790-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5793-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5794-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5795-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5797-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5799-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5805-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5807-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5808-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5809-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5812-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5813-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5814-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5815-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5816-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5817-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5818-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5819-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5820-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5821-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5822-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5823-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5824-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5825-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5826-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5827-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5830-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5831-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5832-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5835-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5836-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5837-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5839-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5840-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5841-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5842-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5843-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5844-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5845-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5846-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5847-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5848-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5849-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5850-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5851-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5852-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5853-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5854-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5855-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5856-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5857-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5858-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5859-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5860-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5861-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5862-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5864-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5865-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5866-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5867-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5868-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5869-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5870-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5871-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5872-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5873-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5874-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5875-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5876-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5877-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5878-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5879-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5880-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5881-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5882-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5883-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5884-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5885-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5886-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5887-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5896-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5897-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5898-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5899-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5900-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5901-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5902-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5903-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5904-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5905-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5906-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5907-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5908-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5909-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5910-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5911-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5912-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5913-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5914-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5915-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5916-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5921-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5924-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5925-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5926-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5927-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5928-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5930-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5931-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5932-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5934-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5936-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5937-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5939-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5940-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5941-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5943-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5945-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5946-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5948-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5949-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5950-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5952-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5954-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5955-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5957-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5958-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5961-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5963-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5996-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5998-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-5999-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6000-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6001-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6002-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6004-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6005-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6006-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6008-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6010-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6011-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6013-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6014-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6015-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6017-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6019-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6037-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6038-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6039-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6042-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6043-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6044-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6046-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6051-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6052-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6053-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6055-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6061-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6063-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6064-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6065-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6066-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6067-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6068-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6069-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6070-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6071-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6072-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6073-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6074-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6075-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6076-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6077-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6078-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6079-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6080-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6081-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6082-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6083-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6084-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6085-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6086-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6087-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6088-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6089-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6090-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6091-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6092-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6093-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6094-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6095-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6104-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6105-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6108-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6109-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6110-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6112-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6114-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6115-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6117-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6118-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6119-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6121-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6123-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6128-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6130-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6131-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6132-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6133-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6134-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6136-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6137-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6138-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6140-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6142-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6143-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6145-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6146-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6147-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6149-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6151-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6152-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6153-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6156-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6158-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6159-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6160-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6161-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6162-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6164-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6165-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6166-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6168-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6170-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6171-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6173-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6174-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6175-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6177-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6179-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6187-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6188-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6189-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6190-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6192-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6193-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6194-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6196-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6198-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6199-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6201-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6202-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6203-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6205-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6207-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6212-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6214-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6215-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6216-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6217-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6218-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6220-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6222-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6224-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6227-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6228-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6229-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6231-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6232-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6233-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6234-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6235-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6250-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6252-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6254-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6257-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6258-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6259-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6261-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6263-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6271-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6272-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6273-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6276-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6278-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6280-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6282-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6285-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6286-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6287-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6289-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6291-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6292-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6293-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6296-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6297-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6298-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6299-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6300-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6301-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6302-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6303-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6304-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6305-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6306-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6307-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6308-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6309-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    },
+    {
+      "sku": "MR-6310-01FA",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    }
+  ]
+}

@@ -8,3 +8,6 @@ data/reports/*
 !data/reports/.gitkeep
 data/logs/*
 !data/logs/.gitkeep
+.cursor/
+.cursorrules/*
+!cursorrules/.gitkeep

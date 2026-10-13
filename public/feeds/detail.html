@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Walmart feed result</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/hub-ui.css" />
+  <link rel="stylesheet" href="/walmart-prices/price.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <h1>Feed result</h1>
+        <p>Status Walmart returned for this price feed. Failed items are marked in red.</p>
+      </div>
+      <nav class="top-nav" aria-label="Sections">
+        <a href="/walmart-prices/">Home</a>
+        <a href="/walmart-prices/feeds/">Feed status</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="price-main">
+    <section class="price-panel">
+      <p><a href="/walmart-prices/feeds/">Back to feed status</a></p>
+      <div class="feed-detail-head">
+        <h2 id="feedTitle">Loading feed</h2>
+        <p class="meta" id="feedSummary"></p>
+      </div>
+      <p class="banner" id="banner" hidden></p>
+      <div class="table-wrap">
+        <table class="price-table feed-items">
+          <colgroup>
+            <col style="width:25%" />
+            <col style="width:25%" />
+            <col style="width:50%" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>SKU</th>
+              <th>Walmart status</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody id="feedItems"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/walmart-prices/feeds/detail.js"></script>
+</body>
+</html>

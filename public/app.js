@@ -26,6 +26,22 @@ function diffText(value) {
   return text;
 }
 
+function differenceLabel(current, proposed) {
+  if (proposed == null || proposed === '' || current == null || current === '') return '—';
+  const base = Number(current);
+  const next = Number(proposed);
+  if (!Number.isFinite(base) || !Number.isFinite(next)) return '—';
+  const cents = Math.round((next - base) * 100);
+  if (cents === 0) return 'same';
+  const dollars = diffText(cents / 100);
+  if (!base) return dollars;
+  const pct = Math.round((cents / Math.round(base * 100)) * 1000) / 10;
+  const abs = Math.abs(pct);
+  const body = Number.isInteger(abs) ? String(abs) : abs.toFixed(1);
+  const sign = pct > 0 ? '+' : '−';
+  return `${dollars} · ${sign}${body}%`;
+}
+
 function when(value) {
   if (!value) return '—';
   const date = new Date(value);
@@ -100,16 +116,19 @@ function renderDownloads() {
   if ($('btnXlsx')) $('btnXlsx').disabled = disabled;
   if ($('btnCsv')) $('btnCsv').disabled = disabled;
   if ($('btnReduce')) $('btnReduce').disabled = disabled || state.adjusting;
+  if ($('btnClearProposed')) $('btnClearProposed').disabled = disabled || state.adjusting;
+  if ($('btnSample')) $('btnSample').disabled = disabled;
+  if ($('btnUploadSheet')) $('btnUploadSheet').disabled = state.busy || state.downloading || state.adjusting;
 }
 
-async function downloadSheet(format) {
+async function downloadSheet(format, { sample = false } = {}) {
   const spec = activeDownloadSpec();
   if (state.downloading) return;
   const count = countForSpec(spec);
   if (count === 0) return;
   state.downloading = true;
   renderDownloads();
-  showBanner(`Preparing the ${spec.label} ${format === 'xlsx' ? 'Excel' : 'CSV'} file.`, '');
+  showBanner(sample ? `Preparing the ${spec.label} sample sheet.` : `Preparing the ${spec.label} ${format === 'xlsx' ? 'Excel' : 'CSV'} file.`, '');
   try {
     const response = await fetch(exportUrl(format, {
       prefix: spec.prefix,
@@ -117,18 +136,20 @@ async function downloadSheet(format) {
       q: '',
       sort: 'sku',
       dir: 'asc',
-    }));
+    }, sample ? { sample: '1' } : {}));
     if (!response.ok) throw new Error(`Download failed (${response.status}).`);
     const blob = await response.blob();
     const stamp = new Date().toISOString().slice(0, 10);
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = `walmart-prices-${spec.file}-${stamp}.${format}`;
+    link.download = sample
+      ? `walmart-price-sample-${spec.file}-${stamp}.xlsx`
+      : `walmart-prices-${spec.file}-${stamp}.${format}`;
     document.body.appendChild(link);
     link.click();
     link.remove();
     setTimeout(() => URL.revokeObjectURL(link.href), 1500);
-    showBanner(`Downloaded ${spec.label}.`, 'ok');
+    showBanner(sample ? `Downloaded the ${spec.label} sample. Fill Proposed Price, then upload the sheet.` : `Downloaded ${spec.label}.`, 'ok');
   } catch (err) {
     showBanner(err.message, 'bad');
   } finally {
@@ -206,7 +227,9 @@ function renderRows() {
       .map((row) => {
         const checked = state.selection.has(row.sku) ? 'checked' : '';
         const diffClass = row.priceDifference > 0 ? 'diff-up' : row.priceDifference < 0 ? 'diff-down' : '';
-        const status = row.updateStatus || '—';
+        const status = row.feedItemStatus
+          ? `${row.updateStatus || '—'} · ${row.feedItemStatus}`
+          : (row.updateStatus || '—');
         const retry = row.updateStatus === 'Failed' ? `<button type="button" class="secondary" data-action="retry" data-sku="${escapeAttr(row.sku)}">Retry</button>` : '';
         return `<tr>
           <td><input type="checkbox" data-sku="${escapeAttr(row.sku)}" ${checked} aria-label="Select ${escapeAttr(row.sku)}" /></td>
@@ -214,7 +237,7 @@ function renderRows() {
           <td class="product-name">${escapeHtml(row.productName || '—')}</td>
           <td>${money(row.walmartCurrentPrice)}</td>
           <td><input class="price-input" data-price="${escapeAttr(row.sku)}" type="number" min="0.01" step="0.01" value="${row.proposedPrice ?? ''}" /></td>
-          <td class="${diffClass}">${diffText(row.priceDifference)}</td>
+          <td class="${diffClass}">${differenceLabel(row.walmartCurrentPrice, row.proposedPrice)}</td>
           <td><span class="status ${escapeAttr(row.updateStatus)}">${escapeHtml(status)}</span>${row.errorMessage ? `<div class="meta">${escapeHtml(row.errorMessage)}</div>` : ''}</td>
           <td>${when(row.lastFetchedAt)}</td>
           <td class="row-actions">
@@ -262,6 +285,7 @@ function setBusy(busy) {
   $('btnUpdateAll').disabled = running || !(state.summary?.eligible > 0);
   $('btnRetryFailed').disabled = running || !(state.summary?.failed > 0);
   if ($('btnReduce')) $('btnReduce').disabled = running || state.adjusting || state.downloading;
+  if ($('btnClearProposed')) $('btnClearProposed').disabled = running || state.adjusting || state.downloading;
   renderRows();
   renderDownloads();
 }
@@ -329,9 +353,14 @@ async function beginJob(starter) {
 async function flushVisiblePrices() {
   for (const row of state.rows) {
     const input = document.querySelector(`[data-price="${CSS.escape(row.sku)}"]`);
-    if (!input || input.value === '') continue;
-    if (Number(row.proposedPrice) === Number(input.value)) continue;
-    await api.saveProposed(row.sku, input.value);
+    if (!input) continue;
+    const raw = input.value.trim();
+    if (raw === '') {
+      if (row.proposedPrice != null) await api.saveProposed(row.sku, '');
+      continue;
+    }
+    if (Number(row.proposedPrice) === Number(raw)) continue;
+    await api.saveProposed(row.sku, raw);
   }
 }
 
@@ -348,26 +377,36 @@ async function openConfirm(scope, skus, { filter } = {}) {
     showBanner(typeof reason === 'string' ? reason : 'Nothing eligible to update.', 'bad');
     return false;
   }
-  $('confirmTitle').textContent = 'Send prices to Walmart';
-  $('confirmScope').textContent = `This updates ${preview.count} ${preview.scopeText}. ${preview.skipped} unchanged products are skipped.`;
+  $('confirmTitle').textContent = 'Send these prices to Walmart?';
+  $('confirmScope').textContent = `This would update ${preview.count} ${preview.scopeText}. ${preview.skipped} unchanged products are skipped.`;
   $('confirmRows').innerHTML = preview.sample
     .map(
       (row) =>
-        `<tr><td class="sku">${escapeHtml(row.sku)}</td><td>${money(row.walmartCurrentPrice)}</td><td>${money(row.proposedPrice)}</td><td>${diffText(row.priceDifference)}</td></tr>`,
+        `<tr><td class="sku">${escapeHtml(row.sku)}</td><td>${money(row.walmartCurrentPrice)}</td><td>${money(row.proposedPrice)}</td><td>${differenceLabel(row.walmartCurrentPrice, row.proposedPrice)}</td></tr>`,
     )
     .join('');
   $('confirmMore').textContent = preview.count > preview.sample.length ? `And ${preview.count - preview.sample.length} more products.` : '';
   const dialog = $('confirmDialog');
   const go = await new Promise((resolve) => {
-    const onClose = () => {
+    let settled = false;
+    const finish = (answer) => {
+      if (settled) return;
+      settled = true;
       dialog.removeEventListener('close', onClose);
-      resolve(dialog.returnValue === 'go');
+      $('confirmCancel').onclick = null;
+      $('confirmGo').onclick = null;
+      resolve(answer);
     };
+    const onClose = () => finish(false);
     dialog.addEventListener('close', onClose);
+    $('confirmCancel').onclick = () => dialog.close();
     $('confirmGo').onclick = () => {
-      dialog.close('go');
+      finish(true);
+      dialog.close();
     };
+    dialog.returnValue = '';
     dialog.showModal();
+    $('confirmCancel').focus();
   });
   if (!go) return false;
   await beginJob(() => api.update({ scope, skus, filter: applied, confirm: true }));
@@ -385,7 +424,13 @@ function proposedFromRow(sku) {
 
 async function saveSku(sku, proposedPrice, { silent } = {}) {
   const result = await api.saveProposed(sku, proposedPrice);
-  if (!silent) showBanner(`Saved proposed price for ${sku}. This is not on Walmart yet.`, 'ok');
+  const cleared = proposedPrice == null || String(proposedPrice).trim() === '';
+  if (!silent) {
+    showBanner(
+      cleared ? `Cleared the proposed price for ${sku}.` : `Saved proposed price for ${sku}. This is not on Walmart yet.`,
+      'ok',
+    );
+  }
   await refresh();
   return result.row;
 }
@@ -449,6 +494,17 @@ $('checkPage').addEventListener('change', () => {
 });
 
 $('rows').addEventListener('change', (event) => {
+  const priceInput = event.target.closest('input.price-input[data-price]');
+  if (priceInput && !state.busy) {
+    const sku = priceInput.dataset.price;
+    const row = state.rows.find((item) => item.sku === sku);
+    const raw = priceInput.value.trim();
+    const unchanged = raw === '' ? row?.proposedPrice == null : Number(row?.proposedPrice) === Number(raw);
+    if (!unchanged) {
+      saveSku(sku, raw).catch((err) => showBanner(err.message, 'bad'));
+    }
+    return;
+  }
   const box = event.target.closest('input[type="checkbox"][data-sku]');
   if (!box) return;
   if (box.checked) state.selection.add(box.dataset.sku);
@@ -479,8 +535,12 @@ $('rows').addEventListener('click', async (event) => {
       return;
     }
     if (action === 'update' || action === 'retry') {
-      const price = proposedFromRow(sku);
-      if (price !== '') await saveSku(sku, price, { silent: true });
+      const price = proposedFromRow(sku).trim();
+      await saveSku(sku, price, { silent: true });
+      if (price === '') {
+        showBanner(`Cleared the proposed price for ${sku}. Nothing was sent to Walmart.`, 'ok');
+        return;
+      }
       await openConfirm('selected', [sku]);
     }
   } catch (err) {
@@ -492,7 +552,7 @@ async function applyReduction() {
   if (state.adjusting || state.busy || state.downloading) return;
   const percent = Number($('reducePercent').value);
   if (!Number.isFinite(percent) || percent <= 0 || percent >= 100) {
-    showBanner('Enter a reduction between 1 and 99 percent.', 'bad');
+    showBanner('Enter a percent from 1 to 99. This only fills the proposed price in the table.', 'bad');
     return;
   }
   const spec = activeDownloadSpec();
@@ -505,20 +565,15 @@ async function applyReduction() {
   };
   state.adjusting = true;
   renderDownloads();
-  showBanner(`Setting ${spec.label} proposed prices to ${percent}% less.`, '');
+  showBanner(`Filling proposed prices for ${spec.label} at ${percent}% less. Nothing is sent to Walmart.`, '');
   try {
     const result = await api.adjust({ percent, filter });
     await refresh();
     if (!result.updated) {
-      showBanner(`No ${spec.label} products had a price that could be reduced.`, 'bad');
+      showBanner(`No ${spec.label} products had a price that could be lowered.`, 'bad');
       return;
     }
-    showBanner(`Set ${Number(result.updated).toLocaleString()} ${spec.label} prices to ${percent}% less. Confirm to send them to Walmart.`, 'ok');
-    state.adjusting = false;
-    const sent = await openConfirm('filter', undefined, { filter });
-    if (!sent) {
-      showBanner(`Saved the ${percent}% reduction on ${Number(result.updated).toLocaleString()} ${spec.label} products. Nothing was sent to Walmart.`, 'ok');
-    }
+    showBanner(`Filled ${Number(result.updated).toLocaleString()} ${spec.label} proposed prices at ${percent}% less. Nothing was sent to Walmart.`, 'ok');
   } catch (err) {
     showBanner(err.message, 'bad');
   } finally {
@@ -529,6 +584,98 @@ async function applyReduction() {
 
 $('btnReduce').addEventListener('click', () => {
   applyReduction().catch((err) => showBanner(err.message, 'bad'));
+});
+
+async function clearProposedPrices() {
+  if (state.adjusting || state.busy || state.downloading) return;
+  const spec = activeDownloadSpec();
+  const filter = {
+    prefix: spec.prefix,
+    mrCategory: spec.mrCategory,
+    q: '',
+    sort: state.filters.sort,
+    dir: state.filters.dir,
+  };
+  state.adjusting = true;
+  renderDownloads();
+  showBanner(`Clearing proposed prices for ${spec.label}.`, '');
+  try {
+    const result = await api.clearProposed({ filter });
+    await refresh();
+    const cleared = Number(result.cleared) || 0;
+    if (!cleared) {
+      showBanner(`No ${spec.label} products had a proposed price.`, 'ok');
+      return;
+    }
+    showBanner(`Cleared proposed prices on ${cleared.toLocaleString()} ${spec.label} products. Walmart prices are unchanged.`, 'ok');
+  } catch (err) {
+    showBanner(err.message, 'bad');
+  } finally {
+    state.adjusting = false;
+    if (state.job?.status !== 'running') setBusy(false);
+  }
+}
+
+$('btnClearProposed').addEventListener('click', () => {
+  clearProposedPrices().catch((err) => showBanner(err.message, 'bad'));
+});
+
+function readSheetFile(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const text = String(reader.result || '');
+      const comma = text.indexOf(',');
+      resolve(comma >= 0 ? text.slice(comma + 1) : text);
+    };
+    reader.onerror = () => reject(new Error('Could not read the sheet.'));
+    reader.readAsDataURL(file);
+  });
+}
+
+async function uploadPriceSheet(file) {
+  if (!file || state.adjusting || state.busy || state.downloading) return;
+  const name = file.name || '';
+  if (!/\.(xlsx|csv)$/i.test(name)) {
+    showBanner('Upload an Excel .xlsx or CSV sheet.', 'bad');
+    return;
+  }
+  state.adjusting = true;
+  renderDownloads();
+  showBanner('Reading prices from the sheet.', '');
+  try {
+    const fileBase64 = await readSheetFile(file);
+    const result = await api.importSheet({ filename: name, fileBase64 });
+    await refresh();
+    const unknownNote = result.unknown ? ` ${Number(result.unknown).toLocaleString()} SKUs were not in the catalog.` : '';
+    const invalidNote = result.invalid ? ` ${Number(result.invalid).toLocaleString()} prices were not valid.` : '';
+    if (!result.updated) {
+      if (result.skipped) {
+        showBanner(`${Number(result.skipped).toLocaleString()} prices from the sheet are already in the table. Nothing was sent to Walmart.`, 'ok');
+        return;
+      }
+      showBanner(`No prices were applied.${unknownNote}${invalidNote}`, 'bad');
+      return;
+    }
+    showBanner(`Filled ${Number(result.updated).toLocaleString()} proposed prices in the table.${unknownNote}${invalidNote} Nothing was sent to Walmart.`, 'ok');
+  } catch (err) {
+    showBanner(err.message, 'bad');
+  } finally {
+    state.adjusting = false;
+    if (state.job?.status !== 'running') setBusy(false);
+  }
+}
+
+$('btnSample').addEventListener('click', () => {
+  downloadSheet('xlsx', { sample: true }).catch((err) => showBanner(err.message, 'bad'));
+});
+$('btnUploadSheet').addEventListener('click', () => {
+  $('priceSheetFile').click();
+});
+$('priceSheetFile').addEventListener('change', () => {
+  const file = $('priceSheetFile').files?.[0];
+  $('priceSheetFile').value = '';
+  uploadPriceSheet(file).catch((err) => showBanner(err.message, 'bad'));
 });
 
 $('btnXlsx').addEventListener('click', () => {
@@ -569,16 +716,14 @@ $('pageSize').addEventListener('change', () => {
   refresh().catch((err) => showBanner(err.message, 'bad'));
 });
 
-$('confirmCancel').addEventListener('click', () => $('confirmDialog').close('cancel'));
+$('confirmCancel').addEventListener('click', () => {
+  if ($('confirmDialog').open) $('confirmDialog').close();
+});
 $('editCancel').addEventListener('click', () => $('editDialog').close());
 $('editPrice').addEventListener('input', () => {
   const row = state.rows.find((item) => item.sku === state.editSku);
-  const next = Number($('editPrice').value);
-  if (!row || row.walmartCurrentPrice == null || !Number.isFinite(next)) {
-    $('editDiff').textContent = '';
-    return;
-  }
-  $('editDiff').textContent = `Difference ${diffText(Math.round((next - row.walmartCurrentPrice) * 100) / 100)}`;
+  const label = differenceLabel(row?.walmartCurrentPrice, $('editPrice').value);
+  $('editDiff').textContent = label === '—' ? '' : label;
 });
 $('editForm').addEventListener('submit', async (event) => {
   event.preventDefault();
@@ -591,8 +736,13 @@ $('editForm').addEventListener('submit', async (event) => {
 });
 $('editUpdate').addEventListener('click', async () => {
   try {
-    await saveSku(state.editSku, $('editPrice').value, { silent: true });
+    const price = $('editPrice').value.trim();
+    await saveSku(state.editSku, price, { silent: true });
     $('editDialog').close();
+    if (price === '') {
+      showBanner(`Cleared the proposed price for ${state.editSku}. Nothing was sent to Walmart.`, 'ok');
+      return;
+    }
     await openConfirm('selected', [state.editSku]);
   } catch (err) {
     showBanner(err.message, 'bad');

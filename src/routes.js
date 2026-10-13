@@ -1,10 +1,15 @@
 import { timingSafeEqual } from 'node:crypto';
+import path from 'node:path';
 import { dataDir, loadRuntimeConfig, sheetFilePath } from './config.js';
 import { getJobManager } from './jobs/jobManager.js';
 import { createSheetStore } from './store/sheetStore.js';
-import { exportFileName, exportScope, toCsv, toXlsxBuffer } from './store/exportSheet.js';
+import { exportFileName, exportScope, toCsv, toSampleXlsxBuffer, toXlsxBuffer } from './store/exportSheet.js';
+import { priceRowsFromBuffer } from './store/importSheet.js';
 import { createWalmartClient } from './walmart/http.js';
 import { createPriceApi } from './walmart/priceApi.js';
+import { openPriceFeedWindow } from './walmart/priceFeed.js';
+import { createFeedLog } from './store/feedLog.js';
+import { refreshOnePriceFeed, refreshPriceFeedStatus } from './services/refreshFeedStatus.js';
 import { runFetchPrices } from './services/fetchPrices.js';
 import { runPriceUpdates } from './services/updatePrices.js';
 import { resolveUpdateTargets } from './services/targets.js';
@@ -98,7 +103,15 @@ export function mountWalmartPriceRoutes(app) {
       const format = String(req.query.format || 'csv').toLowerCase() === 'xlsx' ? 'xlsx' : 'csv';
       const filter = filterFrom(req.query);
       const rows = await getSheetStore().filtered(filter);
-      const filename = exportFileName(format, exportScope(filter));
+      const sample = String(req.query.sample || '') === '1';
+      const filename = exportFileName(sample ? 'xlsx' : format, sample ? `sample-${exportScope(filter)}` : exportScope(filter));
+      if (sample) {
+        const buffer = await toSampleXlsxBuffer(rows);
+        res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+        res.send(buffer);
+        return;
+      }
       if (format === 'csv') {
         res.setHeader('Content-Type', 'text/csv; charset=utf-8');
         res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
@@ -120,6 +133,33 @@ export function mountWalmartPriceRoutes(app) {
         maxPrice: loadRuntimeConfig().maxPrice,
       });
       res.json({ row });
+    } catch (err) {
+      sendError(res, err);
+    }
+  });
+
+  app.post('/api/walmart-prices/import', async (req, res) => {
+    try {
+      const body = req.body || {};
+      const encoded = String(body.fileBase64 || '').trim();
+      if (!encoded) {
+        return res.status(400).json({ error: 'Choose a CSV or Excel sheet to upload.' });
+      }
+      const buffer = Buffer.from(encoded, 'base64');
+      const updates = await priceRowsFromBuffer(buffer, body.filename || '');
+      const result = await getSheetStore().applyImportedPrices(updates, {
+        maxPrice: loadRuntimeConfig().maxPrice,
+      });
+      res.json(result);
+    } catch (err) {
+      sendError(res, err);
+    }
+  });
+
+  app.post('/api/walmart-prices/clear-proposed', async (req, res) => {
+    try {
+      const result = await getSheetStore().clearProposed(filterFrom(req.body?.filter || {}));
+      res.json(result);
     } catch (err) {
       sendError(res, err);
     }
@@ -180,6 +220,56 @@ export function mountWalmartPriceRoutes(app) {
 
   app.get('/api/walmart-prices/jobs/active', (_req, res) => {
     res.json({ job: getJobManager().activeJob() });
+  });
+
+  app.get('/api/walmart-prices/feeds', async (_req, res) => {
+    const feeds = await createFeedLog(path.join(dataDir(), 'feeds')).list();
+    res.json({ feeds });
+  });
+
+  app.get('/api/walmart-prices/feeds/:feedId', async (req, res) => {
+    const feed = await createFeedLog(path.join(dataDir(), 'feeds')).read(req.params.feedId);
+    if (!feed) return res.status(404).json({ error: 'That feed id is not saved yet.' });
+    return res.json({ feed });
+  });
+
+  app.post('/api/walmart-prices/feeds/:feedId/refresh', requireAdmin, async (req, res) => {
+    try {
+      const config = loadRuntimeConfig();
+      if (!config.configured) {
+        return res.status(400).json({
+          error: 'Walmart credentials are not configured. Set WALMART_CLIENT_ID and WALMART_CLIENT_SECRET in the hub .env.',
+        });
+      }
+      const result = await refreshOnePriceFeed({
+        api: createPriceApi(createWalmartClient()),
+        feedLog: createFeedLog(path.join(dataDir(), 'feeds')),
+        store: getSheetStore(),
+        feedId: req.params.feedId,
+      });
+      return res.json(result);
+    } catch (err) {
+      return sendError(res, err);
+    }
+  });
+
+  app.post('/api/walmart-prices/feeds/refresh', requireAdmin, async (_req, res) => {
+    try {
+      const config = loadRuntimeConfig();
+      if (!config.configured) {
+        return res.status(400).json({
+          error: 'Walmart credentials are not configured. Set WALMART_CLIENT_ID and WALMART_CLIENT_SECRET in the hub .env.',
+        });
+      }
+      const result = await refreshPriceFeedStatus({
+        api: createPriceApi(createWalmartClient()),
+        feedLog: createFeedLog(path.join(dataDir(), 'feeds')),
+        store: getSheetStore(),
+      });
+      return res.json(result);
+    } catch (err) {
+      return sendError(res, err);
+    }
   });
 
   app.get('/api/walmart-prices/jobs/:id', async (req, res) => {
@@ -246,6 +336,7 @@ export function mountWalmartPriceRoutes(app) {
       });
       res.status(202).json({ job: await jobs.get(job.id) });
       const api = createPriceApi(createWalmartClient());
+      const feedWindow = await openPriceFeedWindow(path.join(dataDir(), 'jobs', 'price-feed-calls.json'));
       runPriceUpdates({
         store: getSheetStore(),
         api,
@@ -255,8 +346,8 @@ export function mountWalmartPriceRoutes(app) {
         skus: body.skus,
         filter: body.filter || {},
         maxPrice: config.maxPrice,
-        putDelayMs: config.putDelayMs,
-        verify: config.verifyAfterUpdate,
+        feedWindow,
+        feedLog: createFeedLog(path.join(dataDir(), 'feeds')),
       })
         .then(async (result) => {
           await jobs.finish(job, { status: result.status, message: job.message });

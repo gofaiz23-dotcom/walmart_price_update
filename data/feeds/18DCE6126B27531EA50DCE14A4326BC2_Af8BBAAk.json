@@ -1,0 +1,17 @@
+{
+  "feedId": "18DCE6126B27531EA50DCE14A4326BC2@Af8BBAAk",
+  "checkedAt": "2026-10-13T14:15:22.267Z",
+  "feedStatus": "PROCESSED",
+  "itemsReceived": 1,
+  "itemsSucceeded": 1,
+  "itemsFailed": 0,
+  "itemsProcessing": 0,
+  "feedDate": "",
+  "items": [
+    {
+      "sku": "FZ-35692-GBA-1",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    }
+  ]
+}

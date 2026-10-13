@@ -27,6 +27,66 @@ function jobs() {
   };
 }
 
+test('an uploaded price sheet updates known SKUs only', async () => {
+  const store = await tempStore();
+  await store.applyFetch(
+    [
+      { sku: 'MR-1-01FA', price: 20, currency: 'USD', productName: 'Chair' },
+      { sku: 'IS-1-GBA-1', price: 8, currency: 'USD' },
+    ],
+    { fetchedAt: '2026-10-13T00:00:00.000Z', jobId: 'a' },
+  );
+  const result = await store.applyImportedPrices([
+    { sku: 'mr-1-01fa', proposedPrice: '9.50' },
+    { sku: 'IS-1-GBA-1', proposedPrice: '8' },
+    { sku: 'MISSING-1', proposedPrice: '4' },
+  ]);
+  assert.equal(result.updated, 2);
+  assert.equal(result.skipped, 0);
+  assert.equal(result.unknown, 1);
+  assert.deepEqual(result.skus, ['MR-1-01FA']);
+  const rows = await store.list();
+  assert.equal(rows.find((row) => row.sku === 'MR-1-01FA').proposedPrice, 9.5);
+  assert.equal(rows.find((row) => row.sku === 'IS-1-GBA-1').proposedPrice, 8);
+});
+
+test('a blank proposed price clears one that was already saved', async () => {
+  const store = await tempStore();
+  await store.applyFetch(
+    [{ sku: 'MR-1-01FA', price: 20, currency: 'USD' }],
+    { fetchedAt: '2026-10-13T00:00:00.000Z', jobId: 'a' },
+  );
+  await store.setProposed('MR-1-01FA', 9.5);
+  const cleared = await store.setProposed('MR-1-01FA', '');
+  assert.equal(cleared.proposedPrice, null);
+  assert.equal(cleared.updateStatus, '');
+  const rows = await store.list();
+  assert.equal(rows.find((row) => row.sku === 'MR-1-01FA').proposedPrice, null);
+  assert.equal(rows.find((row) => row.sku === 'MR-1-01FA').walmartCurrentPrice, 20);
+});
+
+test('clearing proposed prices empties the selected series only', async () => {
+  const store = await tempStore();
+  await store.applyFetch(
+    [
+      { sku: 'MR-1-01FA', price: 20, currency: 'USD' },
+      { sku: 'MR-2-04HE', price: 10, currency: 'USD' },
+      { sku: 'IS-1-GBA-1', price: 8, currency: 'USD' },
+    ],
+    { fetchedAt: '2026-10-13T00:00:00.000Z', jobId: 'a' },
+  );
+  await store.setProposed('MR-1-01FA', 9);
+  await store.setProposed('MR-2-04HE', 7);
+  await store.setProposed('IS-1-GBA-1', 6);
+  const result = await store.clearProposed({ prefix: 'mr', mrCategory: 'any' });
+  assert.equal(result.cleared, 2);
+  const rows = await store.list();
+  assert.equal(rows.find((row) => row.sku === 'MR-1-01FA').proposedPrice, null);
+  assert.equal(rows.find((row) => row.sku === 'MR-2-04HE').proposedPrice, null);
+  assert.equal(rows.find((row) => row.sku === 'IS-1-GBA-1').proposedPrice, 6);
+  assert.equal(rows.find((row) => row.sku === 'MR-1-01FA').walmartCurrentPrice, 20);
+});
+
 test('a percent reduction changes only the selected series', async () => {
   const store = await tempStore();
   await store.applyFetch(
@@ -90,8 +150,8 @@ test('a failed update does not replace the confirmed Walmart price', async () =>
     verify: true,
     sleep: async () => {},
     api: {
-      async putPrice() {
-        throw new Error('Walmart PUT price failed (400)');
+      async submitPriceFeed() {
+        throw new Error('Walmart price feed failed (400)');
       },
       async getItemPrice() {
         throw new Error('should not verify a rejected update');
@@ -114,6 +174,7 @@ test('an accepted update stays unverified until the catalog price matches', asyn
   });
   await store.setProposed('IS-9-GBA-1', 14);
   let calls = 0;
+  const feeds = [];
   const job = { id: 'job_ok', failures: [] };
   await runPriceUpdates({
     store,
@@ -121,21 +182,22 @@ test('an accepted update stays unverified until the catalog price matches', asyn
     job,
     scope: 'all',
     filter: {},
-    putDelayMs: 0,
-    verify: true,
     sleep: async () => {},
     api: {
-      async putPrice(sku, amount) {
-        assert.equal(sku, 'IS-9-GBA-1');
-        assert.equal(amount, 14);
+      async submitPriceFeed(items) {
+        feeds.push(items);
+        return { feedId: 'feed-1', itemCount: items.length };
       },
       async getItemPrice() {
         calls += 1;
-        return { sku: 'IS-9-GBA-1', price: calls === 1 ? 10 : 14, currency: 'USD' };
+        return { sku: 'IS-9-GBA-1', price: 14, currency: 'USD' };
       },
     },
   });
   let [row] = await store.list();
+  assert.equal(feeds.length, 1);
+  assert.deepEqual(feeds[0], [{ sku: 'IS-9-GBA-1', price: 14 }]);
+  assert.equal(calls, 0);
   assert.equal(row.walmartCurrentPrice, 10);
   assert.equal(row.updateStatus, 'Unverified');
   assert.equal(row.proposedPrice, 14);
@@ -219,4 +281,34 @@ test('csv export keeps confirmed and proposed prices in separate columns', async
   assert.match(csv, /ABC-1,8,9/);
   const excluded = await store.filtered({ prefix: 'is' });
   assert.equal(excluded.length, 0);
+});
+
+test('saved feed status marks a rejected price and keeps an accepted one', async () => {
+  const store = await tempStore();
+  await store.applyFetch(
+    [
+      { sku: 'MR-1-01FA', price: 20, currency: 'USD' },
+      { sku: 'MR-2-01FA', price: 30, currency: 'USD' },
+    ],
+    { fetchedAt: '2026-10-13T00:00:00.000Z', jobId: 'fetch' },
+  );
+  await store.setProposedMany([
+    { sku: 'MR-1-01FA', proposedPrice: 10 },
+    { sku: 'MR-2-01FA', proposedPrice: 30 },
+  ]);
+  const applied = await store.applyFeedResults('FEED1', [
+    { sku: 'MR-1-01FA', ingestionStatus: 'DATA_ERROR', error: 'Bad price' },
+    { sku: 'mr-2-01fa', ingestionStatus: 'SUCCESS', error: '' },
+    { sku: 'MR-1-01FA', ingestionStatus: 'INPROGRESS', error: '' },
+  ]);
+  assert.equal(applied.matched, 3);
+  const rows = await store.list();
+  const failed = rows.find((row) => row.sku === 'MR-1-01FA');
+  const same = rows.find((row) => row.sku === 'MR-2-01FA');
+  assert.equal(failed.updateStatus, 'Unverified');
+  assert.equal(failed.feedItemStatus, 'INPROGRESS');
+  assert.equal(failed.errorMessage, '');
+  assert.equal(same.updateStatus, 'Success');
+  assert.equal(same.feedItemStatus, 'SUCCESS');
+  assert.equal(same.walmartCurrentPrice, 30);
 });

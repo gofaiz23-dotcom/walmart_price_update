@@ -70,7 +70,11 @@ export async function request(path, { method = 'GET', body, filters, extra } = {
     try {
       data = JSON.parse(text);
     } catch {
-      data = { error: text.slice(0, 240) };
+      data = {
+        error: /Cannot POST|Cannot GET/.test(text)
+          ? 'The price tool is still running the previous server. Stop it with Ctrl+C, run npm start again, then refresh this page.'
+          : text.slice(0, 240),
+      };
     }
   }
   if (!response.ok) {
@@ -81,8 +85,8 @@ export async function request(path, { method = 'GET', body, filters, extra } = {
   return data;
 }
 
-export function exportUrl(format, filters) {
-  return `/api/walmart-prices/export?${queryString(filters, { format, page: '', pageSize: '' })}`;
+export function exportUrl(format, filters, extra = {}) {
+  return `/api/walmart-prices/export?${queryString(filters, { format, page: '', pageSize: '', ...extra })}`;
 }
 
 export const api = {
@@ -95,8 +99,14 @@ export const api = {
       body: { proposedPrice },
     }),
   adjust: (body) => request('/api/walmart-prices/adjust', { method: 'POST', body }),
+  clearProposed: (body) => request('/api/walmart-prices/clear-proposed', { method: 'POST', body }),
+  importSheet: (body) => request('/api/walmart-prices/import', { method: 'POST', body }),
   preview: (body) => request('/api/walmart-prices/preview-update', { method: 'POST', body }),
   fetchPrices: () => request('/api/walmart-prices/fetch', { method: 'POST', body: {} }),
   update: (body) => request('/api/walmart-prices/update', { method: 'POST', body }),
   job: (id) => request(`/api/walmart-prices/jobs/${encodeURIComponent(id)}`),
+  feeds: () => request('/api/walmart-prices/feeds'),
+  feed: (feedId) => request(`/api/walmart-prices/feeds/${encodeURIComponent(feedId)}`),
+  refreshFeeds: () => request('/api/walmart-prices/feeds/refresh', { method: 'POST', body: {} }),
+  refreshFeed: (feedId) => request(`/api/walmart-prices/feeds/${encodeURIComponent(feedId)}/refresh`, { method: 'POST', body: {} }),
 };

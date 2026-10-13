@@ -45,6 +45,35 @@ export function toCsv(records) {
   return `\uFEFF${[header, ...lines].join('\r\n')}\r\n`;
 }
 
+export const SAMPLE_COLUMNS = [
+  ['sku', 'SKU'],
+  ['walmartCurrentPrice', 'Walmart Current Price'],
+  ['proposedPrice', 'Proposed Price'],
+  ['productName', 'Product Name'],
+];
+
+export function sampleRows(records) {
+  return records.map((record) => ({
+    sku: record.sku,
+    walmartCurrentPrice: record.walmartCurrentPrice ?? '',
+    proposedPrice: '',
+    productName: record.productName || '',
+  }));
+}
+
+export async function toSampleXlsxBuffer(records) {
+  const { default: ExcelJS } = await import('exceljs');
+  const workbook = new ExcelJS.Workbook();
+  workbook.creator = 'Walmart Price Management';
+  const sheet = workbook.addWorksheet('Prices');
+  sheet.columns = SAMPLE_COLUMNS.map(([key, header]) => ({ header, key, width: key === 'productName' ? 42 : 24 }));
+  sheet.addRows(sampleRows(records));
+  const header = sheet.getRow(1);
+  header.font = { bold: true };
+  const buffer = await workbook.xlsx.writeBuffer();
+  return Buffer.from(buffer);
+}
+
 export async function toXlsxBuffer(records) {
   const { default: ExcelJS } = await import('exceljs');
   const workbook = new ExcelJS.Workbook();

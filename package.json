@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "test": "node --test tests/skuFilters.test.js tests/prices.test.js tests/sheetAndUpdates.test.js tests/routes.test.js"
+    "test": "node --test tests/skuFilters.test.js tests/prices.test.js tests/sheetAndUpdates.test.js tests/routes.test.js tests/refreshOneFeed.test.js"
   },
   "dependencies": {
     "exceljs": "^4.4.0",

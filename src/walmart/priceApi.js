@@ -18,6 +18,8 @@ import {
   requestsFromList,
 } from './parse.js';
 import { WalmartHttpError } from './http.js';
+import { PRICE_FEED_HARD_CAP, PRICE_FEED_PATH, priceFeedBody } from './priceFeed.js';
+import { feedStatusPath, feedsFromList } from './feedStatus.js';
 
 async function unzipCsv(buffer) {
   const { default: JSZip } = await import('jszip');
@@ -183,27 +185,70 @@ export function createPriceApi(client) {
     };
   }
 
-  async function putPrice(sku, amount, currency = 'USD') {
+  async function submitPriceFeed(items) {
+    const rows = (items || [])
+      .map((item) => ({ sku: String(item?.sku || '').trim(), price: Number(item?.price) }))
+      .filter((item) => item.sku && Number.isFinite(item.price));
+    if (!rows.length) {
+      throw new WalmartHttpError('A price feed needs at least one product.', { status: 400, retryable: false });
+    }
+    if (rows.length > PRICE_FEED_HARD_CAP) {
+      throw new WalmartHttpError(`A price feed can hold at most ${PRICE_FEED_HARD_CAP} products.`, { status: 400, retryable: false });
+    }
     const result = await client.request({
-      method: 'PUT',
-      path: '/v3/price',
-      prefix: 'walmart-price-put',
-      json: {
-        sku,
-        pricing: [
-          {
-            currentPriceType: 'BASE',
-            currentPrice: { currency: currency || 'USD', amount: Number(amount) },
-          },
-        ],
-      },
+      method: 'POST',
+      path: PRICE_FEED_PATH,
+      prefix: 'walmart-price-feed',
+      json: priceFeedBody(rows),
     });
-    const body = result.body;
-    const errorText = bodyError(body);
+    const errorText = bodyError(result.body);
     if (errorText) {
       throw new WalmartHttpError(errorText, { status: result.status, retryable: false });
     }
-    return { sku, accepted: true };
+    const feedId = String(result.body?.feedId || result.body?.feedID || '').trim();
+    if (!feedId) {
+      throw new WalmartHttpError('Walmart did not return a price feed id.', { status: result.status, retryable: false });
+    }
+    return { feedId, itemCount: rows.length };
+  }
+
+  async function putPrice(sku, amount) {
+    return submitPriceFeed([{ sku, price: amount }]);
+  }
+
+  async function listPriceFeeds() {
+    const result = await client.request({
+      method: 'GET',
+      path: '/v3/feeds?feedType=PRICE_AND_PROMOTION&limit=20',
+      prefix: 'walmart-price-feed-list',
+    });
+    return feedsFromList(result.body);
+  }
+
+  async function getPriceFeedStatus(feedId) {
+    const id = String(feedId || '').trim();
+    if (!id) throw new WalmartHttpError('A feed id is required.', { status: 400, retryable: false });
+    let offset = 0;
+    let summary = {};
+    const items = [];
+    for (let page = 0; page < 40; page += 1) {
+      const result = await client.request({
+        method: 'GET',
+        path: feedStatusPath(id, { offset, limit: 1000 }),
+        prefix: 'walmart-price-feed-status',
+      });
+      const body = result.body || {};
+      summary = { ...body, itemDetails: undefined };
+      const pageItems = body?.itemDetails?.itemIngestionStatus || [];
+      const rows = Array.isArray(pageItems) ? pageItems : pageItems ? [pageItems] : [];
+      items.push(...rows);
+      const received = Number(body.itemsReceived || 0);
+      if (!rows.length) break;
+      if (received > 0 && items.length >= received) break;
+      if (!received && rows.length < 1000) break;
+      offset += rows.length;
+    }
+    return { ...summary, itemDetails: { itemIngestionStatus: items } };
   }
 
   return {
@@ -214,7 +259,10 @@ export function createPriceApi(client) {
     parseReportBuffer,
     fetchAllItemPages,
     getItemPrice,
+    submitPriceFeed,
     putPrice,
+    listPriceFeeds,
+    getPriceFeedStatus,
   };
 }
 

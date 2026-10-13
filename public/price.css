@@ -247,10 +247,12 @@ dialog button.secondary:hover {
 .price-table td:nth-child(4),
 .price-table th:nth-child(4),
 .price-table td:nth-child(5),
-.price-table th:nth-child(5),
+.price-table th:nth-child(5) {
+  min-width: 8.5rem;
+}
 .price-table td:nth-child(6),
 .price-table th:nth-child(6) {
-  min-width: 8.5rem;
+  min-width: 12rem;
 }
 .price-input {
   width: 7.2rem;
@@ -297,6 +299,77 @@ dialog button.secondary:hover {
   background: var(--accent-dim);
 }
 .job-bar .meta { position: relative; margin: 0; }
+.feed-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0.75rem 0 0.35rem;
+}
+.feed-bar .meta { margin: 0; }
+.feed-list { display: grid; gap: 0.35rem; margin-bottom: 0.75rem; }
+.price-table.feed-table td:nth-child(4),
+.price-table.feed-table th:nth-child(4),
+.price-table.feed-table td:nth-child(5),
+.price-table.feed-table th:nth-child(5),
+.price-table.feed-table td:nth-child(6),
+.price-table.feed-table th:nth-child(6) {
+  min-width: 0;
+  white-space: nowrap;
+}
+.feed-id {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.82rem;
+  word-break: break-all;
+}
+.feed-fetch { white-space: nowrap; }
+.price-main button.feed-fetch-btn {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.82rem;
+}
+#feedRows tr[data-feed] { cursor: pointer; }
+#feedRows a { color: inherit; text-decoration: none; }
+#feedRows a:hover { text-decoration: underline; }
+.feed-fail-count {
+  color: #8d3d3d;
+  font-weight: 700;
+}
+.price-table.feed-items {
+  width: 100%;
+  min-width: 0;
+  table-layout: fixed;
+}
+.price-table.feed-items th:nth-child(1),
+.price-table.feed-items td:nth-child(1),
+.price-table.feed-items th:nth-child(2),
+.price-table.feed-items td:nth-child(2) { width: 25%; }
+.price-table.feed-items th:nth-child(3),
+.price-table.feed-items td:nth-child(3) { width: 50%; }
+.price-table.feed-items th,
+.price-table.feed-items td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  vertical-align: top;
+}
+tr.feed-failed td {
+  background: #f8e4e4;
+  color: #6e2424;
+}
+tr.feed-failed td.sku,
+tr.feed-failed td.item-status {
+  font-weight: 600;
+}
+.feed-detail-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  align-items: baseline;
+  margin: 0 0 0.8rem;
+}
+.feed-detail-head h2 {
+  margin: 0;
+  font-size: 1.05rem;
+  word-break: break-all;
+}
 .banner {
   margin: 0 0 0.6rem;
   padding: 0.55rem 0.7rem;

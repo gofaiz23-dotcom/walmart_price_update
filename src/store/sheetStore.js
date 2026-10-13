@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { compareRecords, countFilters, matchesFilter, normalizeFilter, sheetDownloadCounts } from '../filters/skuFilters.js';
 import { moneyEqual, parsePercentOff, priceDifference, reducedPrice, validateProposedPrice } from '../validation/prices.js';
+import { isProcessingStatus } from '../walmart/feedStatus.js';
 import { toCsv } from './exportSheet.js';
 
 function createMutex() {
@@ -29,6 +30,8 @@ function blankRecord(sku) {
     errorMessage: '',
     lastSubmittedPrice: null,
     lastJobId: '',
+    feedId: '',
+    feedItemStatus: '',
   };
 }
 
@@ -51,6 +54,8 @@ export function toPublicRow(record) {
     updateStatus: record.updateStatus || '',
     errorMessage: record.errorMessage || '',
     lastSubmittedPrice: record.lastSubmittedPrice,
+    feedId: record.feedId || '',
+    feedItemStatus: record.feedItemStatus || '',
     eligible: isEligible(record),
   };
 }
@@ -300,15 +305,32 @@ export function createSheetStore(filePath, { shardSize = DEFAULT_SHARD_SIZE } = 
     async setProposed(sku, rawPrice, { maxPrice } = {}) {
       return exclusive(async () => {
         await load();
-        const check = validateProposedPrice(rawPrice, { maxPrice });
-        if (!check.ok) {
-          const error = new Error(check.message);
-          error.statusCode = 400;
-          throw error;
-        }
         const incoming = String(sku || '').trim();
         if (!incoming) {
           const error = new Error('SKU is required.');
+          error.statusCode = 400;
+          throw error;
+        }
+        const clearing = rawPrice == null || String(rawPrice).trim() === '';
+        if (clearing) {
+          const key = canonicalKey(incoming);
+          if (!key) {
+            const error = new Error('SKU was not found.');
+            error.statusCode = 404;
+            throw error;
+          }
+          const record = bySku.get(key);
+          record.proposedPrice = null;
+          if (record.updateStatus === 'Pending' || record.updateStatus === 'Failed') {
+            record.updateStatus = '';
+            record.errorMessage = '';
+          }
+          await persist();
+          return toPublicRow(record);
+        }
+        const check = validateProposedPrice(rawPrice, { maxPrice });
+        if (!check.ok) {
+          const error = new Error(check.message);
           error.statusCode = 400;
           throw error;
         }
@@ -370,6 +392,74 @@ export function createSheetStore(filePath, { shardSize = DEFAULT_SHARD_SIZE } = 
         return { updated, skipped, percent, sample };
       });
     },
+    async clearProposed(filterInput) {
+      return exclusive(async () => {
+        await load();
+        const filter = normalizeFilter({ ...filterInput, sort: 'sku', dir: 'asc' });
+        let cleared = 0;
+        for (const record of all()) {
+          if (!matchesFilter(record, filter)) continue;
+          if (record.proposedPrice == null) continue;
+          record.proposedPrice = null;
+          if (record.updateStatus === 'Pending' || record.updateStatus === 'Failed') {
+            record.updateStatus = '';
+            record.errorMessage = '';
+          }
+          cleared += 1;
+        }
+        if (cleared) await persist();
+        return { cleared };
+      });
+    },
+    async applyImportedPrices(entries, { maxPrice } = {}) {
+      return exclusive(async () => {
+        await load();
+        let updated = 0;
+        let skipped = 0;
+        let unknown = 0;
+        let invalid = 0;
+        const skus = [];
+        const unknownSample = [];
+        const invalidSample = [];
+        for (const entry of entries || []) {
+          const incoming = String(entry?.sku || '').trim();
+          const key = canonicalKey(incoming);
+          if (!incoming || !key) {
+            if (incoming) {
+              unknown += 1;
+              if (unknownSample.length < 8) unknownSample.push(incoming);
+            }
+            continue;
+          }
+          const check = validateProposedPrice(entry?.proposedPrice, { maxPrice });
+          if (!check.ok) {
+            invalid += 1;
+            if (invalidSample.length < 8) invalidSample.push({ sku: incoming, message: check.message });
+            continue;
+          }
+          const record = bySku.get(key);
+          if (moneyEqual(record.proposedPrice, check.amount)) {
+            skipped += 1;
+            continue;
+          }
+          const sameAsCurrent = moneyEqual(record.walmartCurrentPrice, check.amount);
+          record.proposedPrice = check.amount;
+          if (sameAsCurrent) {
+            if (record.updateStatus === 'Pending' || record.updateStatus === 'Failed') {
+              record.updateStatus = record.lastUpdatedAt ? 'Success' : '';
+              record.errorMessage = '';
+            }
+          } else {
+            record.updateStatus = 'Pending';
+            record.errorMessage = '';
+            skus.push(record.sku);
+          }
+          updated += 1;
+        }
+        if (updated) await persist();
+        return { updated, skipped, unknown, invalid, skus, unknownSample, invalidSample };
+      });
+    },
     async setProposedMany(updates, { maxPrice } = {}) {
       return exclusive(async () => {
         await load();
@@ -396,6 +486,72 @@ export function createSheetStore(filePath, { shardSize = DEFAULT_SHARD_SIZE } = 
         }
         await persist();
         return { saved, errors };
+      });
+    },
+    async restoreConnectionFailures() {
+      return exclusive(async () => {
+        await load();
+        let restored = 0;
+        for (const record of all()) {
+          if (record.updateStatus !== 'Failed') continue;
+          if (!/^fetch failed\b/i.test(record.errorMessage || '')) continue;
+          record.updateStatus = record.proposedPrice != null ? 'Pending' : '';
+          record.errorMessage = '';
+          restored += 1;
+        }
+        if (restored) await persist();
+        return { restored };
+      });
+    },
+    async applyFeedResults(feedId, items) {
+      return exclusive(async () => {
+        await load();
+        let matched = 0;
+        for (const item of items || []) {
+          const key = canonicalKey(item.sku);
+          if (!key) continue;
+          const record = bySku.get(key);
+          matched += 1;
+          record.feedId = feedId;
+          record.feedItemStatus = item.ingestionStatus || '';
+          if (item.ingestionStatus === 'SUCCESS') {
+            record.errorMessage = item.error || '';
+            if (record.proposedPrice != null && moneyEqual(record.proposedPrice, record.walmartCurrentPrice)) {
+              record.updateStatus = 'Success';
+            } else if (record.updateStatus === 'Failed') {
+              record.updateStatus = 'Unverified';
+            }
+          } else if (isProcessingStatus(item.ingestionStatus)) {
+            record.errorMessage = '';
+            if (record.updateStatus === 'Failed') record.updateStatus = 'Unverified';
+          } else {
+            record.updateStatus = 'Failed';
+            record.errorMessage = item.error || item.ingestionStatus || 'Walmart rejected this price.';
+          }
+        }
+        if (matched) await persist();
+        return { matched };
+      });
+    },
+    async markSubmittedMany(entries, { jobId, feedId } = {}) {
+      return exclusive(async () => {
+        await load();
+        for (const entry of entries || []) {
+          const key = canonicalKey(entry?.sku);
+          if (!key) continue;
+          const record = bySku.get(key);
+          record.lastJobId = jobId || record.lastJobId;
+          if (feedId) record.feedId = feedId;
+          if (entry.accepted) {
+            record.updateStatus = 'Unverified';
+            record.errorMessage = '';
+            record.lastSubmittedPrice = entry.submittedPrice;
+          } else {
+            record.updateStatus = 'Failed';
+            record.errorMessage = entry.message || 'Walmart rejected the price update.';
+          }
+        }
+        await persist();
       });
     },
     async markSubmitted(sku, { accepted, message, submittedPrice, jobId, at }) {

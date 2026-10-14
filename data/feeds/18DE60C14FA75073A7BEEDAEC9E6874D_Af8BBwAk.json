@@ -1,0 +1,17 @@
+{
+  "feedId": "18DE60C14FA75073A7BEEDAEC9E6874D@Af8BBwAk",
+  "checkedAt": "2026-10-14T11:08:18.996Z",
+  "feedStatus": "PROCESSED",
+  "itemsReceived": 1,
+  "itemsSucceeded": 1,
+  "itemsFailed": 0,
+  "itemsProcessing": 0,
+  "feedDate": "",
+  "items": [
+    {
+      "sku": "1675W-1-Q-HNF",
+      "ingestionStatus": "SUCCESS",
+      "error": ""
+    }
+  ]
+}

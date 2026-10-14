@@ -1115,15 +1115,15 @@
       "productName": "Transitional White Finish 1pc Queen Size Bed Wooden Panel Bed Bedroom Furniture",
       "walmartCurrentPrice": 749,
       "currency": "USD",
-      "proposedPrice": null,
+      "proposedPrice": 949,
       "lastFetchedAt": "2026-10-13T14:16:18.012Z",
       "lastUpdatedAt": null,
-      "updateStatus": "",
+      "updateStatus": "Unverified",
       "errorMessage": "",
-      "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
-      "feedId": "",
-      "feedItemStatus": ""
+      "lastSubmittedPrice": 949,
+      "lastJobId": "job_1791976082332_049f74d9",
+      "feedId": "18DE60C14FA75073A7BEEDAEC9E6874D@Af8BBwAk",
+      "feedItemStatus": "SUCCESS"
     },
     {
       "sku": "1675WF-1-F-HNF",

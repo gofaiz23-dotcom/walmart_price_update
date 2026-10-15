@@ -29,6 +29,7 @@
     <section class="price-panel">
       <div class="toolbar price-toolbar" id="toolbar">
         <button type="button" id="btnFetch">Fetch products from Walmart</button>
+        <button type="button" id="btnInventory" class="secondary">Fetch inventory</button>
         <button type="button" id="btnUpdateSelected" class="secondary" disabled>Update selected</button>
         <button type="button" id="btnUpdateFilter" class="secondary" disabled>Update matching filter</button>
         <button type="button" id="btnUpdateAll" class="danger" disabled>Update all eligible</button>
@@ -80,6 +81,7 @@
               <th><input id="checkPage" type="checkbox" aria-label="Select all products on this page" /></th>
               <th><button type="button" class="sort" data-sort="sku">SKU</button></th>
               <th>Product</th>
+              <th><button type="button" class="sort" data-sort="inventory">Available qty</button></th>
               <th><button type="button" class="sort" data-sort="current">Current Walmart price</button></th>
               <th><button type="button" class="sort" data-sort="proposed">Proposed price</button></th>
               <th>Difference</th>

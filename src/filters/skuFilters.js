@@ -11,7 +11,7 @@
 
 export const PREFIXES = ['all', 'mr', 'is', 'exclude'];
 export const MR_CATEGORIES = ['any', 'mr', '01FA', '04HE'];
-export const SORT_KEYS = ['sku', 'current', 'proposed', 'status', 'fetched'];
+export const SORT_KEYS = ['sku', 'current', 'proposed', 'status', 'fetched', 'inventory'];
 
 export function prefixGroup(sku) {
   const value = String(sku || '').trim();
@@ -88,6 +88,7 @@ function sortValue(record, sort) {
   if (sort === 'proposed') return record.proposedPrice;
   if (sort === 'status') return record.updateStatus || '';
   if (sort === 'fetched') return record.lastFetchedAt || '';
+  if (sort === 'inventory') return record.inventoryAvailable;
   return record.sku || '';
 }
 
@@ -100,7 +101,7 @@ export function compareRecords(a, b, sort, dir) {
   if (aMissing && bMissing) return a.sku.localeCompare(b.sku);
   if (aMissing) return 1;
   if (bMissing) return -1;
-  if (sort === 'current' || sort === 'proposed') {
+  if (sort === 'current' || sort === 'proposed' || sort === 'inventory') {
     const diff = Number(av) - Number(bv);
     if (diff !== 0) return diff * sign;
   } else {

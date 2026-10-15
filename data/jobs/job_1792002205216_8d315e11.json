@@ -1,0 +1,1 @@
+{"id":"job_1792002205216_8d315e11","type":"fetch","status":"completed","phase":"done","message":"Fetched 42423 products from Walmart. 42423 have a price. 42425 are in the sheet.","total":42423,"processed":42423,"succeeded":42423,"failed":0,"skipped":0,"startedAt":"2026-10-14T18:23:25.216Z","finishedAt":"2026-10-14T18:27:23.648Z","requestId":"","source":"items","failures":[]}

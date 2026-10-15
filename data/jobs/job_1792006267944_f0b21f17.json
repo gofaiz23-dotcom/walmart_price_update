@@ -1,0 +1,1 @@
+{"id":"job_1792006267944_f0b21f17","type":"inventory","status":"completed","phase":"done","message":"Fetched inventory for 42462 products. 38392 have a quantity.","total":42462,"processed":42462,"succeeded":38392,"failed":4070,"skipped":0,"startedAt":"2026-10-14T19:31:07.944Z","finishedAt":"2026-10-14T19:53:47.494Z","requestId":"","source":"inventories","failures":[]}

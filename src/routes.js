@@ -7,10 +7,12 @@ import { exportFileName, exportScope, toCsv, toSampleXlsxBuffer, toXlsxBuffer } 
 import { priceRowsFromBuffer } from './store/importSheet.js';
 import { createWalmartClient } from './walmart/http.js';
 import { createPriceApi } from './walmart/priceApi.js';
+import { createInventoryApi } from './walmart/inventoryApi.js';
 import { openPriceFeedWindow } from './walmart/priceFeed.js';
 import { createFeedLog } from './store/feedLog.js';
 import { refreshOnePriceFeed, refreshPriceFeedStatus } from './services/refreshFeedStatus.js';
 import { runFetchPrices } from './services/fetchPrices.js';
+import { runFetchInventory } from './services/fetchInventory.js';
 import { runPriceUpdates } from './services/updatePrices.js';
 import { resolveUpdateTargets } from './services/targets.js';
 import { sanitizeError } from './validation/prices.js';
@@ -310,6 +312,48 @@ export function mountWalmartPriceRoutes(app) {
         .catch(async (err) => {
           console.log(`[fetch ${job.id}] failed — ${sanitizeError(err)}`);
           await jobs.log({ jobId: job.id, action: 'fetch', outcome: 'failed', message: err });
+          await jobs.finish(job, { status: 'failed', message: sanitizeError(err) });
+        });
+    } catch (err) {
+      sendError(res, err);
+    }
+  });
+
+  app.post('/api/walmart-prices/inventory', requireAdmin, async (req, res) => {
+    try {
+      const config = loadRuntimeConfig();
+      if (!config.configured) {
+        return res.status(400).json({
+          error: 'Walmart credentials are not configured. Set WALMART_CLIENT_ID and WALMART_CLIENT_SECRET in the hub .env.',
+        });
+      }
+      const jobs = getJobManager();
+      const job = await jobs.start({ type: 'inventory', message: 'Starting Walmart inventory fetch.' });
+      console.log(`[inventory ${job.id}] started — reading inventory from Walmart`);
+      res.status(202).json({ job: await jobs.get(job.id) });
+      const client = createWalmartClient();
+      const priceApi = createPriceApi(client);
+      const api = createInventoryApi(client, {
+        downloadReadyReport: (requestId) => priceApi.downloadReadyReport(requestId),
+      });
+      runFetchInventory({
+        store: getSheetStore(),
+        api,
+        jobManager: jobs,
+        job,
+        pollMs: config.reportPollMs,
+        timeoutMs: config.reportTimeoutMs,
+        pageSize: config.inventoryPageSize,
+        pageDelayMs: config.inventoryPageDelayMs,
+        resume: req.body?.fresh !== true,
+      })
+        .then(async () => {
+          console.log(`[inventory ${job.id}] finished — ${job.message}`);
+          await jobs.finish(job, { status: 'completed', message: job.message });
+        })
+        .catch(async (err) => {
+          console.log(`[inventory ${job.id}] failed — ${sanitizeError(err)}`);
+          await jobs.log({ jobId: job.id, action: 'inventory', outcome: 'failed', message: err });
           await jobs.finish(job, { status: 'failed', message: sanitizeError(err) });
         });
     } catch (err) {

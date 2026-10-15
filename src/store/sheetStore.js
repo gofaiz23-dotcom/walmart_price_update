@@ -32,6 +32,10 @@ function blankRecord(sku) {
     lastJobId: '',
     feedId: '',
     feedItemStatus: '',
+    inventoryAvailable: null,
+    inventoryInput: null,
+    inventoryNodes: [],
+    inventoryFetchedAt: null,
   };
 }
 
@@ -56,6 +60,9 @@ export function toPublicRow(record) {
     lastSubmittedPrice: record.lastSubmittedPrice,
     feedId: record.feedId || '',
     feedItemStatus: record.feedItemStatus || '',
+    inventoryAvailable: record.inventoryAvailable ?? null,
+    inventoryInput: record.inventoryInput ?? null,
+    inventoryFetchedAt: record.inventoryFetchedAt || null,
     eligible: isEligible(record),
   };
 }
@@ -196,14 +203,17 @@ export function createSheetStore(filePath, { shardSize = DEFAULT_SHARD_SIZE } = 
         const records = all();
         const filter = normalizeFilter({ ...filterInput, sort: 'sku', dir: 'asc' });
         let withPrice = 0;
+        let withInventory = 0;
         let pending = 0;
         let success = 0;
         let failed = 0;
         let unverified = 0;
         let eligible = 0;
         let lastFetchedAt = null;
+        let lastInventoryFetchedAt = null;
         for (const record of records) {
           if (record.walmartCurrentPrice != null) withPrice += 1;
+          if (record.inventoryAvailable != null) withInventory += 1;
           if (record.updateStatus === 'Pending') pending += 1;
           if (record.updateStatus === 'Success') success += 1;
           if (record.updateStatus === 'Failed') failed += 1;
@@ -212,16 +222,21 @@ export function createSheetStore(filePath, { shardSize = DEFAULT_SHARD_SIZE } = 
           if (record.lastFetchedAt && (!lastFetchedAt || record.lastFetchedAt > lastFetchedAt)) {
             lastFetchedAt = record.lastFetchedAt;
           }
+          if (record.inventoryFetchedAt && (!lastInventoryFetchedAt || record.inventoryFetchedAt > lastInventoryFetchedAt)) {
+            lastInventoryFetchedAt = record.inventoryFetchedAt;
+          }
         }
         return {
           total: records.length,
           withPrice,
+          withInventory,
           pending,
           success,
           failed,
           unverified,
           eligible,
           lastFetchedAt,
+          lastInventoryFetchedAt,
           counts: countFilters(records, filter),
           sheets: sheetDownloadCounts(records),
           matched: records.filter((record) => matchesFilter(record, filter)).length,
@@ -300,6 +315,38 @@ export function createSheetStore(filePath, { shardSize = DEFAULT_SHARD_SIZE } = 
         }
         await persist();
         return { updated, missingPrice, added, total: bySku.size };
+      });
+    },
+    /**
+     * Merge fetched Walmart inventory. Prices and proposed prices stay as they are.
+     * Available quantity is the sum of AvailToSell across ship nodes.
+     */
+    async applyInventory(rows, { fetchedAt, jobId }) {
+      return exclusive(async () => {
+        await load();
+        let updated = 0;
+        let added = 0;
+        for (const row of rows) {
+          const incoming = String(row?.sku || '').trim();
+          if (!incoming) continue;
+          let key = canonicalKey(incoming);
+          if (!key) {
+            key = incoming;
+            bySku.set(key, blankRecord(key));
+            lowerIndex.set(key.toLowerCase(), key);
+            added += 1;
+          }
+          const record = bySku.get(key);
+          if (row.productName && !record.productName) record.productName = row.productName;
+          record.inventoryAvailable = row.available == null ? null : Number(row.available);
+          record.inventoryInput = row.input == null ? null : Number(row.input);
+          record.inventoryNodes = Array.isArray(row.nodes) ? row.nodes : [];
+          record.inventoryFetchedAt = fetchedAt;
+          record.lastJobId = jobId || record.lastJobId;
+          updated += 1;
+        }
+        await persist();
+        return { updated, added, total: bySku.size };
       });
     },
     async setProposed(sku, rawPrice, { maxPrice } = {}) {

@@ -1,19 +1,2032 @@
 {
   "records": [
     {
+      "sku": "WK12CK0PMH-Malouf",
+      "productName": "12\" Mattress Standard Cal-King Size Rolled Mattress Bedroom Heavy-duty Traditional Plush Cushioning Memory Foam",
+      "walmartCurrentPrice": 500,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12CKFR50AF-HNF",
+      "productName": "Cal-King Size 12 Inch Gel Memory Foam Firm Mattress Optimum Support and Temperature-Regulation",
+      "walmartCurrentPrice": 720,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12CKPL50AF-HNF",
+      "productName": "12 Inch Cal King Size Gel Memory Foam Plush Mattress Durable Comfortable Deluxe Mattress",
+      "walmartCurrentPrice": 720,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12FFFR50AF-HNF",
+      "productName": "Full Size 12 Inch Gel Memory Foam Firm Mattress Optimum Support and Temperature-Regulation",
+      "walmartCurrentPrice": 510,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12FFPL50AF-HNF",
+      "productName": "12 Inch Full Size Gel Memory Foam Plush Mattress Durable Comfortable Deluxe Mattress",
+      "walmartCurrentPrice": 510,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12KK0FMH-Malouf",
+      "productName": "12\" Mattress Standard King Size Rolled Mattress Bedroom Heavy-duty Traditional Firm Cushioning Memory Foam",
+      "walmartCurrentPrice": 630,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12KKFR50AF-HNF",
+      "productName": "King Size 12 Inch Gel Memory Foam Firm Mattress Optimum Support and Temperature-Regulation",
+      "walmartCurrentPrice": 720,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12KKPL50AF-HNF",
+      "productName": "12 Inch King Size Gel Memory Foam Plush Mattress Durable Comfortable Deluxe Mattress",
+      "walmartCurrentPrice": 720,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12QQFR50AF-HNF",
+      "productName": "Queen Size 12 Inch Gel Memory Foam Firm Mattress Optimum Support and Temperature-Regulation",
+      "walmartCurrentPrice": 610,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12QQPL50AF-HNF",
+      "productName": "12 Inch Queen Size Gel Memory Foam Plush Mattress Durable Comfortable Deluxe Mattress",
+      "walmartCurrentPrice": 610,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12TTFR50AF-HNF",
+      "productName": "Twin Size 12 Inch Gel Memory Foam Firm Mattress Optimum Support and Temperature-Regulation",
+      "walmartCurrentPrice": 450,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12TTPL50AF-HNF",
+      "productName": "12 Inch Twin Size Gel Memory Foam Plush Mattress Durable Comfortable Deluxe Mattress",
+      "walmartCurrentPrice": 450,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12TXFR50AF-HNF",
+      "productName": "Twin XL Size 12 Inch Gel Memory Foam Firm Mattress Optimum Support and Temperature-Regulation",
+      "walmartCurrentPrice": 485,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WK12TXPL50AF-HNF",
+      "productName": "12 Inch Twin XL Size Gel Memory Foam Plush Mattress Durable Comfortable Deluxe Mattress",
+      "walmartCurrentPrice": 485,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0001MWBFFBR-ML-HNF",
+      "productName": "Modern Sleek Style 1pc Full Bed Metal and Wood Platform Bed Brown Finish",
+      "walmartCurrentPrice": 615,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0001MWBFFNA-ML-HNF",
+      "productName": "Modern Sleek Style 1pc Full Bed Metal and Wood Platform Bed Natural Finish",
+      "walmartCurrentPrice": 615,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0001MWBKKBR-ML-HNF",
+      "productName": "Modern Sleek Style 1pc King Bed Metal and Wood Platform Bed Brown Finish",
+      "walmartCurrentPrice": 649,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0001MWBKKNA-ML-HNF",
+      "productName": "Modern Sleek Style 1pc King Bed Metal and Wood Platform Bed Natural Finish",
+      "walmartCurrentPrice": 649,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0001MWBQQBR-ML-HNF",
+      "productName": "Modern Sleek Style 1pc Queen Bed Metal and Wood Platform Bed Brown Finish",
+      "walmartCurrentPrice": 629,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0001MWBQQNA-ML-HNF",
+      "productName": "Modern Sleek Style 1pc Queen Bed Metal and Wood Platform Bed Natural Finish",
+      "walmartCurrentPrice": 629,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0001MWBTTBR-ML-HNF",
+      "productName": "Modern Sleek Style 1pc Twin Bed Metal and Wood Platform Bed Brown Finish",
+      "walmartCurrentPrice": 575,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0001MWBTTNA-ML-HNF",
+      "productName": "Modern Sleek Style 1pc Twin Bed Metal and Wood Platform Bed Natural Finish",
+      "walmartCurrentPrice": 575,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDCKCH-ML-HNF",
+      "productName": "Sturdy Wood Frame Cal King Size Modern Upholstered Platform Bed Plush Headboard Charcoal 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 810,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDCKST-ML-HNF",
+      "productName": "Sturdy Wood Frame Cal King Size Modern Upholstered Platform Bed Plush Headboard Stone Gray 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 810,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDFFCH-ML-HNF",
+      "productName": "Sturdy Wood Frame Full Size Modern Upholstered Platform Bed Plush Headboard Charcoal 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 749,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDFFCO-ML-HNF",
+      "productName": "Sturdy Wood Frame Full Size Modern Upholstered Platform Bed Plush Headboard Cobalt Blue 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 749,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDFFFM-ML-HNF",
+      "productName": "Full Size Modern Platform Bed Plush Headboard Faux Caramel Color 1pc Bedroom Furniture Sturdy Wood Frame",
+      "walmartCurrentPrice": 749,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDFFPE-ML-HNF",
+      "productName": "Sturdy Wood Frame Full Size Modern Upholstered Platform Bed Plush Headboard Pearl Color 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 749,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDFFST-ML-HNF",
+      "productName": "Sturdy Wood Frame Full Size Modern Upholstered Platform Bed Plush Headboard Stone Gray 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 749,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDKKCH-ML-HNF",
+      "productName": "Sturdy Wood Frame King Size Modern Upholstered Platform Bed Plush Headboard Charcoal 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 810,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDKKCO-ML-HNF",
+      "productName": "Sturdy Wood Frame King Size Modern Upholstered Platform Bed Plush Headboard Cobalt Blue 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 810,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDKKFM-ML-HNF",
+      "productName": "King Size Modern Platform Bed Plush Headboard Faux Caramel Color 1pc Bedroom Furniture Sturdy Wood Frame",
+      "walmartCurrentPrice": 810,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDKKPE-ML-HNF",
+      "productName": "Sturdy Wood Frame King Size Modern Upholstered Platform Bed Plush Headboard Pearl Color 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 810,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDKKST-ML-HNF",
+      "productName": "Sturdy Wood Frame King Size Modern Upholstered Platform Bed Plush Headboard Stone Gray 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 810,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDQQCH-ML-HNF",
+      "productName": "Sturdy Wood Frame Queen Size Modern Upholstered Platform Bed Plush Headboard Charcoal 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 770,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDQQCO-ML-HNF",
+      "productName": "Sturdy Wood Frame Queen Size Modern Upholstered Platform Bed Plush Headboard Cobalt Blue 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 770,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDQQFM-ML-HNF",
+      "productName": "Queen Size Modern Platform Bed Plush Headboard Faux Caramel Color 1pc Bedroom Furniture Sturdy Wood Frame",
+      "walmartCurrentPrice": 770,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDQQPE-ML-HNF",
+      "productName": "Sturdy Wood Frame Queen Size Modern Upholstered Platform Bed Plush Headboard Pearl Color 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 770,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDQQST-ML-HNF",
+      "productName": "Sturdy Wood Frame Queen Size Modern Upholstered Platform Bed Plush Headboard Stone Gray 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 770,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDTTCH-ML-HNF",
+      "productName": "Sturdy Wood Frame Twin Size Modern Upholstered Platform Bed Plush Headboard Charcoal 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 699,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0005UBDTTST-ML-HNF",
+      "productName": "Sturdy Wood Frame Twin Size Modern Upholstered Platform Bed Plush Headboard Stone Gray 1pc Bedroom Furniture",
+      "walmartCurrentPrice": 699,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDCKCH-ML-HNF",
+      "productName": "Contemporary Cal King Size Platform Bed Plush Headboard Upholstered Bed 1pc Charcoal Bedroom Furniture",
+      "walmartCurrentPrice": 770,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDCKST-ML-HNF",
+      "productName": "Contemporary Cal King Size Platform Bed Plush Headboard Upholstered Bed 1pc Stone Gray Bedroom Furniture",
+      "walmartCurrentPrice": 770,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDFFCH-ML-HNF",
+      "productName": "Contemporary Full Size Platform Bed Plush Headboard Upholstered Bed 1pc Charcoal Bedroom Furniture",
+      "walmartCurrentPrice": 710,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDFFCO-ML-HNF",
+      "productName": "Contemporary Full Size Platform Bed Plush Headboard Upholstered Bed 1pc Cobalt Blue Bedroom Furniture",
+      "walmartCurrentPrice": 710,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDFFPE-ML-HNF",
+      "productName": "Contemporary Full Size Platform Bed Plush Headboard Upholstered Bed Pearl Color Fabric Bedroom Furniture",
+      "walmartCurrentPrice": 710,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDFFST-ML-HNF",
+      "productName": "Contemporary Full Size Platform Bed Plush Headboard Upholstered Bed 1pc Stone Gray Bedroom Furniture",
+      "walmartCurrentPrice": 710,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDKKCH-ML-HNF",
+      "productName": "Contemporary King Size Platform Bed Plush Headboard Upholstered Bed 1pc Charcoal Bedroom Furniture",
+      "walmartCurrentPrice": 755,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDKKCO-ML-HNF",
+      "productName": "Contemporary King Size Platform Bed Plush Headboard Upholstered Bed 1pc Cobalt Blue Bedroom Furniture",
+      "walmartCurrentPrice": 755,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDKKPE-ML-HNF",
+      "productName": "Contemporary King Size Platform Bed Plush Headboard Upholstered Bed Pearl Color Fabric Bedroom Furniture",
+      "walmartCurrentPrice": 755,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDKKST-ML-HNF",
+      "productName": "Contemporary King Size Platform Bed Plush Headboard Upholstered Bed 1pc Stone Gray Bedroom Furniture",
+      "walmartCurrentPrice": 755,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDQQCH-ML-HNF",
+      "productName": "Contemporary Queen Size Platform Bed Plush Headboard Upholstered Bed 1pc Charcoal Bedroom Furniture",
+      "walmartCurrentPrice": 715,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDQQCO-ML-HNF",
+      "productName": "Contemporary Queen Size Platform Bed Plush Headboard Upholstered Bed 1pc Cobalt Blue Bedroom Furniture",
+      "walmartCurrentPrice": 715,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDQQPE-ML-HNF",
+      "productName": "Contemporary Queen Size Platform Bed Plush Headboard Upholstered Bed Pearl Color Fabric Bedroom Furniture",
+      "walmartCurrentPrice": 715,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDQQST-ML-HNF",
+      "productName": "Contemporary Queen Size Platform Bed Plush Headboard Upholstered Bed 1pc Stone Gray Bedroom Furniture",
+      "walmartCurrentPrice": 715,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDTTCH-ML-HNF",
+      "productName": "Contemporary Twin Size Platform Bed Plush Headboard Upholstered Bed 1pc Charcoal Bedroom Furniture",
+      "walmartCurrentPrice": 660,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDTTST-ML-HNF",
+      "productName": "Contemporary Twin Size Platform Bed Plush Headboard Upholstered Bed 1pc Stone Gray Bedroom Furniture",
+      "walmartCurrentPrice": 660,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDTXCH-ML-HNF",
+      "productName": "Contemporary Twin XL Size Platform Bed Plush Headboard Upholstered Bed 1pc Charcoal Bedroom Furniture",
+      "walmartCurrentPrice": 675,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC0006UBDTXST-ML-HNF",
+      "productName": "Contemporary Twin XL Size Platform Bed Plush Headboard Upholstered Bed 1pc Stone Gray Bedroom Furniture",
+      "walmartCurrentPrice": 675,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC08CKGFSP-HNF",
+      "productName": "8 inch Mattress Cal King Size Bed Mattress Gel Memory Form Hybrid Mattress Bedroom Furniture",
+      "walmartCurrentPrice": 355,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC08FFGFSP-HNF",
+      "productName": "8 inch Mattress Full Size Bed Mattress Gel Memory Form Hybrid Mattress Bedroom Furniture",
+      "walmartCurrentPrice": 285,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC08KKGFSP-HNF",
+      "productName": "8 inch Mattress King Size Bed Mattress Gel Memory Form Hybrid Mattress Bedroom Furniture",
+      "walmartCurrentPrice": 355,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC08QQGFSP-HNF",
+      "productName": "8 inch Mattress Queen Size Bed Mattress Gel Memory Form Hybrid Mattress Bedroom Furniture",
+      "walmartCurrentPrice": 300,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC08TTGFSP-HNF",
+      "productName": "8 inch Mattress Twin Size Bed Mattress Gel Memory Form Hybrid Mattress Bedroom Furniture",
+      "walmartCurrentPrice": 239,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC08TXGFSP-HNF",
+      "productName": "8 inch Mattress Twin XL Size Bed Mattress Gel Memory Form Hybrid Mattress Bedroom Furniture",
+      "walmartCurrentPrice": 319,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC10CKGFSP-HNF",
+      "productName": "10 inch Mattress Cal King Size Bed Mattress Gel Memory Form Hybrid Mattress Soft Comfortable Mattress Bonnell Spring",
+      "walmartCurrentPrice": 419,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC10FFGFSP-HNF",
+      "productName": "10 inch Mattress Full Size Bed Mattress Gel Memory Form Hybrid Mattress Soft Comfortable Mattress Bonnell Spring",
+      "walmartCurrentPrice": 319,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC10KKGFSP-HNF",
+      "productName": "10 inch Mattress King Size Bed Mattress Gel Memory Form Hybrid Mattress Soft Comfortable Mattress Bonnell Spring",
+      "walmartCurrentPrice": 419,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC10QQGFSP-HNF",
+      "productName": "10 inch Mattress Queen Size Bed Mattress Gel Memory Form Hybrid Mattress Soft Comfortable Mattress Bonnell Spring",
+      "walmartCurrentPrice": 359,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC10TTGFSP-HNF",
+      "productName": "10 inch Mattress Twin Size Bed Mattress Gel Memory Form Hybrid Mattress Soft Comfortable Mattress Bonnell Spring",
+      "walmartCurrentPrice": 279,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC10TXGFSP-HNF",
+      "productName": "10 inch Mattress Twin XL Size Bed Mattress Gel Memory Form Hybrid Mattress Soft Comfortable Mattress Bonnell Spring",
+      "walmartCurrentPrice": 289,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC12CKGFSP-HNF",
+      "productName": "Soft Comfortable 12 inch Mattress Cal King Size Bed Mattress Gel Memory Form Hybrid Mattress Euro Top Design Bonnell Spring",
+      "walmartCurrentPrice": 480,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC12FFGFSP-HNF",
+      "productName": "Soft Comfortable 12 inch Mattress Full Size Bed Mattress Gel Memory Form Hybrid Mattress Euro Top Design Bonnell Spring",
+      "walmartCurrentPrice": 379,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC12KKGFSP-HNF",
+      "productName": "Soft Comfortable 12 inch Mattress King Size Bed Mattress Gel Memory Form Hybrid Mattress Euro Top Design Bonnell Spring",
+      "walmartCurrentPrice": 480,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC12QQGFSP-HNF",
+      "productName": "Soft Comfortable 12 inch Mattress Queen Size Bed Mattress Gel Memory Form Hybrid Mattress Euro Top Design Bonnell Spring",
+      "walmartCurrentPrice": 419,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC12TTGFSP-HNF",
+      "productName": "Soft Comfortable 12 inch Mattress Twin Size Bed Mattress Gel Memory Form Hybrid Mattress Euro Top Design Bonnell Spring",
+      "walmartCurrentPrice": 330,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
+      "sku": "WKXC12TXGFSP-HNF",
+      "productName": "Soft Comfortable 12 inch Mattress Twin XL Size Bed Mattress Gel Memory Form Hybrid Mattress Euro Top Design Bonnell Spring",
+      "walmartCurrentPrice": 345,
+      "currency": "USD",
+      "proposedPrice": null,
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
+      "lastUpdatedAt": null,
+      "updateStatus": "",
+      "errorMessage": "",
+      "lastSubmittedPrice": null,
+      "lastJobId": "job_1792006267944_f0b21f17",
+      "feedId": "",
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
+    },
+    {
       "sku": "YK09-2pc",
       "productName": "Bonded Leather Seashell / Espresso Color 2 Piece Sofa Set Sofa Loveseat Couch Retro Contemporary Living Room Furniture Set",
       "walmartCurrentPrice": 1499.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YK12",
@@ -21,14 +2034,25 @@
       "walmartCurrentPrice": 1499.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YK15-BLK",
@@ -36,14 +2060,25 @@
       "walmartCurrentPrice": 1299.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YK15-BR",
@@ -51,14 +2086,25 @@
       "walmartCurrentPrice": 1299.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YS001-Black-2pc-Moz-BM",
@@ -66,14 +2112,25 @@
       "walmartCurrentPrice": 1799.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YS001-Black-3pc-Moz-BM",
@@ -81,14 +2138,25 @@
       "walmartCurrentPrice": 2149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YS001-Blue-2pc-Moz-BM",
@@ -96,14 +2164,25 @@
       "walmartCurrentPrice": 1799.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YS001-Blue-3pc-Moz-BM",
@@ -111,14 +2190,25 @@
       "walmartCurrentPrice": 2149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YS001-Gray-2pc-Moz-BM",
@@ -126,14 +2216,25 @@
       "walmartCurrentPrice": 1799.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YS001-Gray-3pc-Moz-BM",
@@ -141,14 +2242,25 @@
       "walmartCurrentPrice": 2149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY128-Bed-GY-EK-BM",
@@ -156,14 +2268,25 @@
       "walmartCurrentPrice": 1649.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY128-Bed-GY-Q-BM",
@@ -171,14 +2294,25 @@
       "walmartCurrentPrice": 1549.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY128-Cream-Bed-CK-BM",
@@ -186,14 +2320,25 @@
       "walmartCurrentPrice": 1649.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY128-Cream-Bed-EK-BM",
@@ -201,14 +2346,25 @@
       "walmartCurrentPrice": 1649.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY128-Cream-Bed-Q-BM",
@@ -216,14 +2372,25 @@
       "walmartCurrentPrice": 1549.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY128-Gray-Bed-CK-BM",
@@ -231,14 +2398,25 @@
       "walmartCurrentPrice": 1649.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Beige-Bed-F-BM",
@@ -246,14 +2424,25 @@
       "walmartCurrentPrice": 1099.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Beige-Bed-Q-BM",
@@ -261,14 +2450,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Black-Bed-EK-BM",
@@ -276,14 +2476,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Black-Bed-F-BM",
@@ -291,14 +2502,25 @@
       "walmartCurrentPrice": 1099.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Black-Bed-Q-BM",
@@ -306,14 +2528,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Black-V-Bed-CK-BM",
@@ -321,14 +2554,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Black-V-Bed-EK-BM",
@@ -336,14 +2580,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Black-V-Bed-F-BM",
@@ -351,14 +2606,25 @@
       "walmartCurrentPrice": 1125,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Black-V-Bed-Q-BM",
@@ -366,14 +2632,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Blue-V-Bed-CK-BM",
@@ -381,14 +2658,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Blue-V-Bed-EK-BM",
@@ -396,14 +2684,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Blue-V-Bed-F-BM",
@@ -411,14 +2710,25 @@
       "walmartCurrentPrice": 1125,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Blue-V-Bed-Q-BM",
@@ -426,14 +2736,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Gray-Bed-CK-BM",
@@ -441,14 +2762,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Gray-Bed-EK-BM",
@@ -456,14 +2788,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Gray-Bed-F-BM",
@@ -471,14 +2814,25 @@
       "walmartCurrentPrice": 1099.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Gray-Bed-Q-BM",
@@ -486,14 +2840,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Gray-V-Bed-CK-BM",
@@ -501,14 +2866,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Gray-V-Bed-EK-BM",
@@ -516,14 +2892,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Gray-V-Bed-F-BM",
@@ -531,14 +2918,25 @@
       "walmartCurrentPrice": 1125,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY129-Gray-V-Bed-Q-BM",
@@ -546,14 +2944,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY130-Bed-BG-EK-BM",
@@ -561,14 +2970,25 @@
       "walmartCurrentPrice": 849.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY130-Bed-BG-Q-BM",
@@ -576,14 +2996,25 @@
       "walmartCurrentPrice": 749.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY130-Bed-BK-EK-BM",
@@ -591,14 +3022,25 @@
       "walmartCurrentPrice": 849.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY130-Bed-BK-Q-BM",
@@ -606,14 +3048,25 @@
       "walmartCurrentPrice": 749.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Beige-Bed-EK-BM-Moz",
@@ -621,14 +3074,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Black-Bed-CK-BM-Moz",
@@ -636,14 +3100,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Black-Bed-EK-BM-Moz",
@@ -651,14 +3126,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Black-Bed-Q-BM-Moz",
@@ -666,14 +3152,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Black-V-Bed-EK-BM-Moz",
@@ -681,14 +3178,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Black-V-Bed-Q-BM-Moz",
@@ -696,14 +3204,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Blue-V-Bed-CK-BM-Moz",
@@ -711,14 +3230,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Blue-V-Bed-EK-BM-Moz",
@@ -726,14 +3256,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Blue-V-Bed-Q-BM-Moz",
@@ -741,14 +3282,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Gray-Bed-CK-BM-Moz",
@@ -756,14 +3308,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Gray-Bed-EK-BM-Moz",
@@ -771,14 +3334,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Gray-Bed-Q-BM",
@@ -786,14 +3360,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Gray-V-Bed-CK-BM-Moz",
@@ -801,14 +3386,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Gray-V-Bed-EK-BM-Moz",
@@ -816,14 +3412,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY131-Gray-V-Bed-Q-BM-Moz",
@@ -831,14 +3438,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-BG-CK-1pc-BM",
@@ -846,14 +3464,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-BG-EK-1pc-BM",
@@ -861,14 +3490,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-BG-Q-1pc-BM",
@@ -876,14 +3516,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-BK-CK-1pc-BM",
@@ -891,14 +3542,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-BK-EK-1pc-BM",
@@ -906,14 +3568,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-BK-Q-1pc-BM",
@@ -921,14 +3594,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-Black-V-Bed-Q-BM-Moz",
@@ -936,14 +3620,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-Blue-V-Bed-F-BM-Moz",
@@ -951,14 +3646,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-Blue-V-Bed-Q-BM-Moz",
@@ -966,14 +3672,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-Cream-V-Bed-CK-BM-Moz",
@@ -981,14 +3698,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-Cream-V-Bed-EK-BM-Moz",
@@ -996,14 +3724,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-Cream-V-Bed-F-BM-Moz",
@@ -1011,14 +3750,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-Cream-V-Bed-Q-BM-Moz",
@@ -1026,14 +3776,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-Gray-V-Bed-CK-BM-Moz",
@@ -1041,14 +3802,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-Gray-V-Bed-EK-BM-Moz",
@@ -1056,14 +3828,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-Gray-V-Bed-F-BM-Moz",
@@ -1071,14 +3854,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-Gray-V-Bed-Q-BM-Moz",
@@ -1086,14 +3880,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-GY-CK-1pc-BM",
@@ -1101,14 +3906,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-GY-EK-1pc-BM",
@@ -1116,14 +3932,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY132-GY-Q-1pc-BM",
@@ -1131,14 +3958,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY133-BG-CK-1pc-BM",
@@ -1146,14 +3984,25 @@
       "walmartCurrentPrice": 899.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY133-BG-EK-1pc-BM",
@@ -1161,14 +4010,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY133-BG-Q-1pc-BM",
@@ -1176,14 +4036,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY133-BK-CK-1pc-BM",
@@ -1191,14 +4062,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY133-BK-EK-1pc-BM",
@@ -1206,14 +4088,25 @@
       "walmartCurrentPrice": 899.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY133-BK-Q-1pc-BM",
@@ -1221,14 +4114,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY133-GY-CK-1pc-BM",
@@ -1236,14 +4140,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY133-GY-EK-1pc-BM",
@@ -1251,14 +4166,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY133-GY-Q-1pc-BM",
@@ -1266,14 +4192,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY135-BK-CK-1pc-BM",
@@ -1281,14 +4218,25 @@
       "walmartCurrentPrice": 1649.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY135-BK-EK-1pc-BM",
@@ -1296,14 +4244,25 @@
       "walmartCurrentPrice": 1649.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY135-BK-Q-1pc-BM",
@@ -1311,14 +4270,25 @@
       "walmartCurrentPrice": 1549.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY135-GY-Q-1pc-BM",
@@ -1326,14 +4296,25 @@
       "walmartCurrentPrice": 899.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY136-Black-Q-1pc-BM",
@@ -1341,14 +4322,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY136-Blue-CK-1pc-BM",
@@ -1356,14 +4348,25 @@
       "walmartCurrentPrice": 1849.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY136-Blue-EK-1pc-BM",
@@ -1371,14 +4374,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY136-Blue-Q-1pc-BM",
@@ -1386,14 +4400,25 @@
       "walmartCurrentPrice": 1749.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY136-Grey-Q-1pc-BM",
@@ -1401,14 +4426,25 @@
       "walmartCurrentPrice": 1749.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY137-Beige-CK-1pc-BM-Moz",
@@ -1416,14 +4452,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY137-Beige-EK-1pc-BM-Moz",
@@ -1431,14 +4478,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY137-Beige-Q-1pc-BM-Moz",
@@ -1446,14 +4504,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY137-Gray-CK-1pc-BM-Moz",
@@ -1461,14 +4530,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY137-Gray-EK-1pc-BM-Moz",
@@ -1476,14 +4556,25 @@
       "walmartCurrentPrice": 1249.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY137-Gray-Q-1pc-BM-Moz",
@@ -1491,14 +4582,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY139-BG-CK-1pc-BM",
@@ -1506,14 +4608,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY139-BG-EK-1pc-BM",
@@ -1521,14 +4634,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY139-BG-Q-1pc-BM",
@@ -1536,14 +4660,25 @@
       "walmartCurrentPrice": 1049.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY139-BK-CK-1pc-BM",
@@ -1551,14 +4686,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY139-BK-EK-1pc-BM",
@@ -1566,14 +4712,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY139-BK-Q-1pc-BM",
@@ -1581,14 +4738,25 @@
       "walmartCurrentPrice": 1049.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY139-GY-EK-1pc-BM",
@@ -1596,14 +4764,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY139-GY-Q-1pc-BM",
@@ -1611,14 +4790,25 @@
       "walmartCurrentPrice": 1049.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-B-CK-BM-HNF",
@@ -1626,14 +4816,25 @@
       "walmartCurrentPrice": 899,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-B-EK-BM-HNF",
@@ -1641,14 +4842,25 @@
       "walmartCurrentPrice": 899,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-B-Q-BM-HNF",
@@ -1656,14 +4868,25 @@
       "walmartCurrentPrice": 849,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-BL-CK-BM-HNF",
@@ -1671,14 +4894,25 @@
       "walmartCurrentPrice": 899,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-BL-EK-BM-HNF",
@@ -1686,14 +4920,25 @@
       "walmartCurrentPrice": 899,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-BL-Q-BM-HNF",
@@ -1701,14 +4946,25 @@
       "walmartCurrentPrice": 849,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-C-CK-BM-HNF",
@@ -1716,14 +4972,25 @@
       "walmartCurrentPrice": 899,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-C-EK-BM-HNF",
@@ -1731,14 +4998,25 @@
       "walmartCurrentPrice": 899,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-C-Q-BM-HNF",
@@ -1746,14 +5024,25 @@
       "walmartCurrentPrice": 849,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-G-CK-BM-HNF",
@@ -1761,14 +5050,25 @@
       "walmartCurrentPrice": 899,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-G-EK-BM-HNF",
@@ -1776,14 +5076,25 @@
       "walmartCurrentPrice": 899,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "YY140-G-Q-BM-HNF",
@@ -1791,14 +5102,25 @@
       "walmartCurrentPrice": 849,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zara-Cream-T-1pc-MF-",
@@ -1806,14 +5128,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zara-Gray-T-1pc-MF",
@@ -1821,14 +5154,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zara-Navy-T-1pc-MF",
@@ -1836,14 +5180,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zara-Pink-T-1pc-MF",
@@ -1851,14 +5206,25 @@
       "walmartCurrentPrice": 1149.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-Black-F-1pc-MF",
@@ -1866,14 +5232,25 @@
       "walmartCurrentPrice": 1319.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-Black-K-1pc-MF",
@@ -1881,14 +5258,25 @@
       "walmartCurrentPrice": 1449.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-Black-Q-1pc-MF",
@@ -1896,14 +5284,25 @@
       "walmartCurrentPrice": 1349.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-Black-T-1pc-MF",
@@ -1911,14 +5310,25 @@
       "walmartCurrentPrice": 1269.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-Gray-F-1pc-MF",
@@ -1926,14 +5336,25 @@
       "walmartCurrentPrice": 1319.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-Gray-K-1pc-MF",
@@ -1941,14 +5362,25 @@
       "walmartCurrentPrice": 1449.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-Gray-Q-1pc-MF",
@@ -1956,14 +5388,25 @@
       "walmartCurrentPrice": 1349.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-Gray-T-1pc-MF",
@@ -1971,14 +5414,25 @@
       "walmartCurrentPrice": 1269.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-White-F-1pc-MF",
@@ -1986,14 +5440,25 @@
       "walmartCurrentPrice": 1319.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": 0,
+      "inventoryInput": 0,
+      "inventoryNodes": [
+        {
+          "shipNode": "10000002100",
+          "shipNodeName": "",
+          "available": 0,
+          "input": 0
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-White-K-1pc-MF",
@@ -2001,14 +5466,25 @@
       "walmartCurrentPrice": 1449.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-White-Q-1pc-MF",
@@ -2016,14 +5492,25 @@
       "walmartCurrentPrice": 1349.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     },
     {
       "sku": "Zuma-White-T-1pc-MF",
@@ -2031,14 +5518,25 @@
       "walmartCurrentPrice": 1269.99,
       "currency": "USD",
       "proposedPrice": null,
-      "lastFetchedAt": "2026-10-13T14:16:18.012Z",
+      "lastFetchedAt": "2026-10-14T18:23:25.219Z",
       "lastUpdatedAt": null,
       "updateStatus": "",
       "errorMessage": "",
       "lastSubmittedPrice": null,
-      "lastJobId": "job_1791900978009_cc693423",
+      "lastJobId": "job_1792006267944_f0b21f17",
       "feedId": "",
-      "feedItemStatus": ""
+      "feedItemStatus": "",
+      "inventoryAvailable": null,
+      "inventoryInput": null,
+      "inventoryNodes": [
+        {
+          "shipNode": "",
+          "shipNodeName": "",
+          "available": null,
+          "input": null
+        }
+      ],
+      "inventoryFetchedAt": "2026-10-14T19:31:07.951Z"
     }
   ]
 }

@@ -14,6 +14,9 @@ export const EXPORT_COLUMNS = [
   ['lastSubmittedPrice', 'Last Submitted Price'],
   ['currency', 'Currency'],
   ['productName', 'Product Name'],
+  ['inventoryAvailable', 'Available Quantity'],
+  ['inventoryInput', 'Input Quantity'],
+  ['inventoryFetchedAt', 'Inventory Fetched At'],
 ];
 
 export function rowsForExport(records) {
@@ -29,6 +32,9 @@ export function rowsForExport(records) {
     lastSubmittedPrice: record.lastSubmittedPrice ?? '',
     currency: record.currency || 'USD',
     productName: record.productName || '',
+    inventoryAvailable: record.inventoryAvailable ?? '',
+    inventoryInput: record.inventoryInput ?? '',
+    inventoryFetchedAt: record.inventoryFetchedAt || '',
   }));
 }
 
@@ -48,6 +54,7 @@ export function toCsv(records) {
 export const SAMPLE_COLUMNS = [
   ['sku', 'SKU'],
   ['walmartCurrentPrice', 'Walmart Current Price'],
+  ['inventoryAvailable', 'Available Quantity'],
   ['proposedPrice', 'Proposed Price'],
   ['productName', 'Product Name'],
 ];
@@ -56,6 +63,7 @@ export function sampleRows(records) {
   return records.map((record) => ({
     sku: record.sku,
     walmartCurrentPrice: record.walmartCurrentPrice ?? '',
+    inventoryAvailable: record.inventoryAvailable ?? '',
     proposedPrice: '',
     productName: record.productName || '',
   }));
@@ -66,7 +74,11 @@ export async function toSampleXlsxBuffer(records) {
   const workbook = new ExcelJS.Workbook();
   workbook.creator = 'Walmart Price Management';
   const sheet = workbook.addWorksheet('Prices');
-  sheet.columns = SAMPLE_COLUMNS.map(([key, header]) => ({ header, key, width: key === 'productName' ? 42 : 24 }));
+  sheet.columns = SAMPLE_COLUMNS.map(([key, header]) => ({
+    header,
+    key,
+    width: key === 'productName' ? 42 : key === 'inventoryAvailable' ? 22 : 24,
+  }));
   sheet.addRows(sampleRows(records));
   const header = sheet.getRow(1);
   header.font = { bold: true };

@@ -67,6 +67,103 @@ function rowGet(row, names) {
   return '';
 }
 
+export function parseQty(value) {
+  if (value == null || value === '') return null;
+  const cleaned = String(value).trim().replace(/,/g, '');
+  if (!cleaned) return null;
+  const n = Number(cleaned);
+  if (!Number.isFinite(n)) return null;
+  return Math.round(n * 1000) / 1000;
+}
+
+function qtyAmount(value) {
+  if (value == null) return null;
+  if (typeof value === 'number' || typeof value === 'string') return parseQty(value);
+  if (typeof value === 'object') return parseQty(value.amount ?? value.Amount);
+  return null;
+}
+
+function sumInventoryNodes(sku, productName, nodes) {
+  let available = 0;
+  let input = 0;
+  let hasAvailable = false;
+  let hasInput = false;
+  for (const node of nodes) {
+    if (node.available != null) {
+      available += node.available;
+      hasAvailable = true;
+    }
+    if (node.input != null) {
+      input += node.input;
+      hasInput = true;
+    }
+  }
+  return {
+    sku,
+    productName: String(productName || '').trim(),
+    available: hasAvailable ? available : null,
+    input: hasInput ? input : null,
+    nodes,
+  };
+}
+
+/** Map an INVENTORY report CSV to one row per SKU, summing every ship node. */
+export function inventoryRowsFromReportCsv(csvRows) {
+  const bySku = new Map();
+  for (const row of csvRows) {
+    const sku = rowGet(row, ['SKU', 'sku', 'Seller SKU']);
+    if (!sku) continue;
+    const key = sku.toLowerCase();
+    let agg = bySku.get(key);
+    if (!agg) {
+      agg = { sku, productName: '', nodes: [] };
+      bySku.set(key, agg);
+    }
+    const productName = rowGet(row, ['Product Name', 'productName', 'itemName']);
+    if (productName) agg.productName = productName;
+    agg.nodes.push({
+      shipNode: rowGet(row, ['Ship Node ID', 'Ship Node', 'shipNode']),
+      shipNodeName: rowGet(row, ['Ship Node Name', 'shipNodeName']),
+      available: parseQty(rowGet(row, [
+        'AvailToSell Quantity',
+        'AvailToSell Qty',
+        'Available to Sell Quantity',
+        'Available Quantity',
+      ])),
+      input: parseQty(rowGet(row, ['Input Quantity', 'Input Qty', 'inputQty'])),
+    });
+  }
+  return [...bySku.values()].map((agg) => sumInventoryNodes(agg.sku, agg.productName, agg.nodes));
+}
+
+/** One inventories API object, across every ship node on that SKU. */
+export function inventoryRecordFromItem(item) {
+  if (!item || typeof item !== 'object') return null;
+  const sku = String(item.sku || item.SKU || '').trim();
+  if (!sku) return null;
+  const rawNodes = item.nodes || item.shipNodes;
+  const nodes = [];
+  if (Array.isArray(rawNodes) && rawNodes.length) {
+    for (const node of rawNodes) {
+      if (!node || typeof node !== 'object') continue;
+      nodes.push({
+        shipNode: String(node.shipNode || node.shipNodeId || '').trim(),
+        shipNodeName: String(node.shipNodeName || '').trim(),
+        available: qtyAmount(node.availToSellQty ?? node.availToSellQuantity),
+        input: qtyAmount(node.inputQty ?? node.inputQuantity),
+      });
+    }
+  } else {
+    nodes.push({
+      shipNode: String(item.shipNode || '').trim(),
+      shipNodeName: String(item.shipNodeName || '').trim(),
+      available: qtyAmount(item.availToSellQty ?? item.availToSellQuantity),
+      input: qtyAmount(item.inputQty ?? item.inputQuantity),
+    });
+  }
+  return sumInventoryNodes(sku, item.productName || item.product_name || '', nodes);
+}
+
 /** Map an ITEM report CSV row to { sku, price, currency }. */
 export function itemRowsFromReportCsv(csvRows) {
   const out = [];
@@ -79,6 +176,34 @@ export function itemRowsFromReportCsv(csvRows) {
     out.push({ sku, price, currency, productName });
   }
   return out;
+}
+
+export function extractInventoryItems(payload) {
+  if (!payload || typeof payload !== 'object') return [];
+  const elements = payload.elements || payload.Elements || payload.payload?.elements || payload.data?.elements;
+  const candidates = [
+    elements?.inventories,
+    elements?.inventory,
+    payload.inventories,
+    payload.inventory,
+  ];
+  for (const candidate of candidates) {
+    if (Array.isArray(candidate)) return candidate.filter((row) => row && typeof row === 'object');
+    if (candidate && typeof candidate === 'object') return [candidate];
+  }
+  return [];
+}
+
+/**
+ * Walmart inventory cursors are passed back exactly as issued.
+ * Encoding them again (URLSearchParams turns "%" into "%25") makes the next page fail.
+ */
+export function inventoriesPagePath(cursor, limit) {
+  const size = String(Math.min(50, Math.max(1, Number(limit) || 50)));
+  const base = `/v3/inventories?limit=${encodeURIComponent(size)}`;
+  const raw = String(cursor ?? '');
+  if (!raw.trim()) return base;
+  return `${base}&nextCursor=${raw}`;
 }
 
 export function extractItemRows(payload) {

@@ -164,6 +164,7 @@ function renderStats() {
   const cards = [
     ['Total products', num(summary.total)],
     ['Prices retrieved', num(summary.withPrice)],
+    ['Inventory retrieved', num(summary.withInventory)],
     ['Pending updates', num(summary.pending)],
     ['Successful updates', num(summary.success)],
     ['Failed updates', num(summary.failed)],
@@ -221,7 +222,7 @@ function renderRows() {
     const waiting = state.job?.status === 'running'
       ? 'Fetching products from Walmart. Rows appear here as each page is saved.'
       : 'No products yet. Click Fetch products from Walmart.';
-    tbody.innerHTML = `<tr><td colspan="9">${waiting}</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="10">${waiting}</td></tr>`;
   } else {
     tbody.innerHTML = state.rows
       .map((row) => {
@@ -235,6 +236,7 @@ function renderRows() {
           <td><input type="checkbox" data-sku="${escapeAttr(row.sku)}" ${checked} aria-label="Select ${escapeAttr(row.sku)}" /></td>
           <td class="sku">${escapeHtml(row.sku)}</td>
           <td class="product-name">${escapeHtml(row.productName || '—')}</td>
+          <td>${row.inventoryAvailable == null ? '—' : Number(row.inventoryAvailable).toLocaleString()}</td>
           <td>${money(row.walmartCurrentPrice)}</td>
           <td><input class="price-input" data-price="${escapeAttr(row.sku)}" type="number" min="0.01" step="0.01" value="${row.proposedPrice ?? ''}" /></td>
           <td class="${diffClass}">${differenceLabel(row.walmartCurrentPrice, row.proposedPrice)}</td>
@@ -280,6 +282,7 @@ function setBusy(busy) {
   state.busy = busy;
   const running = busy || state.job?.status === 'running';
   $('btnFetch').disabled = running;
+  if ($('btnInventory')) $('btnInventory').disabled = running;
   $('btnUpdateSelected').disabled = running || state.selection.size === 0;
   $('btnUpdateFilter').disabled = running;
   $('btnUpdateAll').disabled = running || !(state.summary?.eligible > 0);
@@ -686,6 +689,7 @@ $('btnCsv').addEventListener('click', () => {
 });
 
 $('btnFetch').addEventListener('click', () => beginJob(() => api.fetchPrices()));
+$('btnInventory').addEventListener('click', () => beginJob(() => api.fetchInventory()));
 $('btnUpdateSelected').addEventListener('click', () => {
   openConfirm('selected', [...state.selection]).catch((err) => showBanner(err.message, 'bad'));
 });

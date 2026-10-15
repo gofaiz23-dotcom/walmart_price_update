@@ -6,6 +6,7 @@ import path from 'node:path';
 import { createSheetStore } from '../src/store/sheetStore.js';
 import { toCsv } from '../src/store/exportSheet.js';
 import { runFetchPrices } from '../src/services/fetchPrices.js';
+import { runFetchInventory } from '../src/services/fetchInventory.js';
 import { runPriceUpdates } from '../src/services/updatePrices.js';
 
 async function tempStore() {
@@ -311,4 +312,49 @@ test('saved feed status marks a rejected price and keeps an accepted one', async
   assert.equal(same.updateStatus, 'Success');
   assert.equal(same.feedItemStatus, 'SUCCESS');
   assert.equal(same.walmartCurrentPrice, 30);
+});
+
+test('inventory fetch stores available quantity and leaves the price alone', async () => {
+  const store = await tempStore();
+  await store.applyFetch(
+    [{ sku: 'MR-1-01FA', price: 20, currency: 'USD', productName: 'Chair' }],
+    { fetchedAt: '2026-10-13T00:00:00.000Z', jobId: 'fetch' },
+  );
+  await store.setProposed('MR-1-01FA', 18);
+  const applied = await store.applyInventory(
+    [{ sku: 'mr-1-01fa', available: 11, input: 14, nodes: [{ shipNode: 'N1', available: 11, input: 14 }], productName: 'Other' }],
+    { fetchedAt: '2026-10-15T00:00:00.000Z', jobId: 'inv' },
+  );
+  assert.equal(applied.updated, 1);
+  assert.equal(applied.added, 0);
+  const row = (await store.list()).find((item) => item.sku === 'MR-1-01FA');
+  assert.equal(row.inventoryAvailable, 11);
+  assert.equal(row.inventoryInput, 14);
+  assert.equal(row.walmartCurrentPrice, 20);
+  assert.equal(row.proposedPrice, 18);
+  assert.equal(row.productName, 'Chair');
+  const summary = await store.summary();
+  assert.equal(summary.withInventory, 1);
+  const job = { id: 'job-inv', message: '' };
+  const result = await runFetchInventory({
+    store,
+    job,
+    jobManager: jobs(),
+    pollMs: 1,
+    timeoutMs: 1000,
+    sleep: async () => {},
+    resume: false,
+    api: {
+      async fetchAllInventoryPages(onProgress) {
+        const pageRows = [{ sku: 'IS-9', available: 4, input: 5, nodes: [], productName: '' }];
+        await onProgress({ message: 'page 1', processed: 1, total: 1, pageRows });
+        return pageRows;
+      },
+    },
+  });
+  assert.equal(result.totalRows, 1);
+  assert.equal(result.source, 'inventories');
+  const added = (await store.list()).find((item) => item.sku === 'IS-9');
+  assert.equal(added.inventoryAvailable, 4);
+  assert.equal(added.walmartCurrentPrice, null);
 });

@@ -75,6 +75,8 @@ export function loadRuntimeConfig() {
     putDelayMs: Number(process.env.WALMART_PRICE_PUT_DELAY_MS) || 250,
     itemsPageDelayMs: Number(process.env.WALMART_ITEMS_PAGE_DELAY_MS) || 2000,
     itemsPageSize: Math.min(1000, Math.max(1, Number(process.env.WALMART_ITEMS_PAGE_SIZE) || 1000)),
+    inventoryPageDelayMs: Number(process.env.WALMART_INVENTORY_PAGE_DELAY_MS) || 500,
+    inventoryPageSize: Math.min(50, Math.max(1, Number(process.env.WALMART_INVENTORY_PAGE_SIZE) || 50)),
     reportPollMs: Number(process.env.WALMART_PRICE_REPORT_POLL_MS) || 20_000,
     reportTimeoutMs: Number(process.env.WALMART_PRICE_REPORT_TIMEOUT_MS) || 20 * 60_000,
     verifyAfterUpdate: String(process.env.WALMART_PRICE_VERIFY || 'true').toLowerCase() !== 'false',

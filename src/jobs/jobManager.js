@@ -63,7 +63,7 @@ export function createJobManager(root) {
         await fs.mkdir(jobsDir, { recursive: true });
         const names = await fs.readdir(jobsDir);
         for (const name of names) {
-          if (!name.endsWith('.json') || name === 'fetch-checkpoint.json') continue;
+          if (!name.endsWith('.json') || name === 'fetch-checkpoint.json' || name === 'inventory-checkpoint.json') continue;
           const full = path.join(jobsDir, name);
           try {
             const job = JSON.parse(await fs.readFile(full, 'utf8'));
@@ -79,19 +79,23 @@ export function createJobManager(root) {
         }
       });
     },
-    async readCheckpoint() {
+    checkpointFile(kind = 'fetch') {
+      const name = kind === 'inventory' ? 'inventory-checkpoint.json' : 'fetch-checkpoint.json';
+      return path.join(jobsDir, name);
+    },
+    async readCheckpoint(kind = 'fetch') {
       try {
-        return JSON.parse(await fs.readFile(path.join(jobsDir, 'fetch-checkpoint.json'), 'utf8'));
+        return JSON.parse(await fs.readFile(this.checkpointFile(kind), 'utf8'));
       } catch {
         return null;
       }
     },
-    async writeCheckpoint(checkpoint) {
+    async writeCheckpoint(checkpoint, kind = 'fetch') {
       await fs.mkdir(jobsDir, { recursive: true });
-      await fs.writeFile(path.join(jobsDir, 'fetch-checkpoint.json'), JSON.stringify(checkpoint));
+      await fs.writeFile(this.checkpointFile(kind), JSON.stringify(checkpoint));
     },
-    async clearCheckpoint() {
-      await fs.rm(path.join(jobsDir, 'fetch-checkpoint.json'), { force: true });
+    async clearCheckpoint(kind = 'fetch') {
+      await fs.rm(this.checkpointFile(kind), { force: true });
     },
     activeJob() {
       return publicJob(active);

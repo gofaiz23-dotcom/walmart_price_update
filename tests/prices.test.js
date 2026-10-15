@@ -1,12 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { moneyEqual, reducedPrice, validateProposedPrice } from '../src/validation/prices.js';
-import { itemRowsFromReportCsv, itemsPagePath, parseCsv } from '../src/walmart/parse.js';
+import { itemRowsFromReportCsv, inventoriesPagePath, inventoryRecordFromItem, inventoryRowsFromReportCsv, itemsPagePath, parseCsv } from '../src/walmart/parse.js';
 import { priceRowsFromTable, priceRowsFromBuffer } from '../src/store/importSheet.js';
 import { createPriceApi } from '../src/walmart/priceApi.js';
+import { createInventoryApi } from '../src/walmart/inventoryApi.js';
 import { chunkPriceUpdates, createPriceFeedWindow, priceFeedBody } from '../src/walmart/priceFeed.js';
 import { feedItemsFromStatus, feedsFromList } from '../src/walmart/feedStatus.js';
-import { exportFileName, exportScope } from '../src/store/exportSheet.js';
+import { exportFileName, exportScope, sampleRows } from '../src/store/exportSheet.js';
 
 test('series downloads use a file name for that sheet', () => {
   assert.equal(exportScope({ prefix: 'is', mrCategory: 'any' }), 'IS');
@@ -14,6 +15,13 @@ test('series downloads use a file name for that sheet', () => {
   assert.equal(exportScope({ prefix: 'mr', mrCategory: '01FA' }), 'MR-01FA');
   assert.equal(exportScope({ prefix: 'mr', mrCategory: '04HE' }), 'MR-04HE');
   assert.match(exportFileName('xlsx', 'MR-01FA'), /^walmart-prices-MR-01FA-\d{4}-\d{2}-\d{2}\.xlsx$/);
+});
+
+test('a sample sheet includes the available quantity and leaves proposed price blank', () => {
+  const rows = sampleRows([{ sku: 'MR-1-01FA', walmartCurrentPrice: 20, inventoryAvailable: 0, proposedPrice: 9, productName: 'Chair' }]);
+  assert.equal(rows[0].inventoryAvailable, 0);
+  assert.equal(rows[0].proposedPrice, '');
+  assert.equal(sampleRows([{ sku: 'A', inventoryAvailable: null }])[0].inventoryAvailable, '');
 });
 
 test('an uploaded sheet fills Proposed Price and skips blank rows', () => {
@@ -68,6 +76,108 @@ test('ITEM report CSV maps SKU and price, including quoted fields', () => {
   assert.equal(rows.length, 2);
   assert.deepEqual(rows[0], { sku: 'MR-123-01FA', price: 19.99, currency: 'USD', productName: 'Chair, red' });
   assert.equal(rows[1].price, null);
+});
+
+test('inventory report CSV sums available quantity across ship nodes', () => {
+  const csv = [
+    'SKU,Product Name,Ship Node ID,Ship Node Name,Input Quantity,AvailToSell Quantity',
+    'MR-1-01FA,Chair,N1,West,10,8',
+    'MR-1-01FA,Chair,N2,East,4,3',
+    'IS-2-GBA-1,Table,N1,West,0,0',
+  ].join('\n');
+  const rows = inventoryRowsFromReportCsv(parseCsv(csv));
+  assert.equal(rows.length, 2);
+  assert.equal(rows[0].sku, 'MR-1-01FA');
+  assert.equal(rows[0].available, 11);
+  assert.equal(rows[0].input, 14);
+  assert.equal(rows[0].nodes.length, 2);
+  assert.equal(rows[1].available, 0);
+});
+
+test('inventory pages follow nextCursor and read each ship node', async () => {
+  const calls = [];
+  const pages = [
+    {
+      body: {
+        meta: { totalCount: 2, nextCursor: 'cursor-2' },
+        elements: {
+          inventories: [{
+            sku: 'MR-1-01FA',
+            nodes: [
+              { shipNode: 'N1', availToSellQty: { amount: 5 }, inputQty: { amount: 6 } },
+              { shipNode: 'N2', availToSellQty: { amount: 2 }, inputQty: { amount: 2 } },
+            ],
+          }],
+        },
+      },
+    },
+    {
+      body: {
+        meta: { totalCount: 2 },
+        elements: {
+          inventories: [{ sku: 'IS-2-GBA-1', nodes: [{ shipNode: 'N1', availToSellQty: { amount: 0 }, inputQty: { amount: 1 } }] }],
+        },
+      },
+    },
+  ];
+  let page = 0;
+  const api = createInventoryApi({
+    async request(spec) {
+      calls.push(spec.path);
+      return pages[page++];
+    },
+  });
+  const rows = await api.fetchAllInventoryPages(async () => {}, { pageSize: 50, delayMs: 0, sleep: async () => {} });
+  assert.deepEqual(rows.map((row) => [row.sku, row.available, row.input]), [
+    ['MR-1-01FA', 7, 8],
+    ['IS-2-GBA-1', 0, 1],
+  ]);
+  assert.equal(calls[0], '/v3/inventories?limit=50');
+  assert.match(calls[1], /nextCursor=cursor-2/);
+  assert.equal(inventoriesPagePath('', 50), '/v3/inventories?limit=50');
+  assert.equal(
+    inventoriesPagePath('abc%3D+/=', 50),
+    '/v3/inventories?limit=50&nextCursor=abc%3D+/=',
+  );
+  assert.equal(inventoryRecordFromItem({ sku: 'A', availToSellQty: { amount: 3 } }).available, 3);
+});
+
+test('a rejected inventory cursor restarts from the first page and the token is not re-encoded', async () => {
+  const calls = [];
+  const api = createInventoryApi({
+    async request(spec) {
+      calls.push(spec.path);
+      if (calls.length === 2) {
+        const error = new Error('Invalid nextCursor. pagination lock not acquired');
+        error.status = 400;
+        throw error;
+      }
+      if (calls.length === 1) {
+        return {
+          body: {
+            meta: { totalCount: 2, nextCursor: 'tok%3D+/' },
+            elements: { inventories: [{ sku: 'A', nodes: [{ availToSellQty: { amount: 1 }, inputQty: { amount: 1 } }] }] },
+          },
+        };
+      }
+      return {
+        body: {
+          meta: { totalCount: 1 },
+          elements: { inventories: [{ sku: 'B', nodes: [{ availToSellQty: { amount: 2 }, inputQty: { amount: 2 } }] }] },
+        },
+      };
+    },
+  });
+  const rows = await api.fetchAllInventoryPages(async () => {}, {
+    pageSize: 50,
+    delayMs: 0,
+    staleWaitMs: 0,
+    lockWaitMs: 0,
+    sleep: async () => {},
+  });
+  assert.deepEqual(rows.map((row) => row.sku), ['B']);
+  assert.equal(calls.filter((path) => path === '/v3/inventories?limit=50').length, 2);
+  assert.equal(calls[1], '/v3/inventories?limit=50&nextCursor=tok%3D+/');
 });
 
 test('a Walmart query-string cursor is sent as the next page, not nested again', () => {

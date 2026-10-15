@@ -103,6 +103,7 @@ export const api = {
   importSheet: (body) => request('/api/walmart-prices/import', { method: 'POST', body }),
   preview: (body) => request('/api/walmart-prices/preview-update', { method: 'POST', body }),
   fetchPrices: () => request('/api/walmart-prices/fetch', { method: 'POST', body: {} }),
+  fetchInventory: () => request('/api/walmart-prices/inventory', { method: 'POST', body: {} }),
   update: (body) => request('/api/walmart-prices/update', { method: 'POST', body }),
   job: (id) => request(`/api/walmart-prices/jobs/${encodeURIComponent(id)}`),
   feeds: () => request('/api/walmart-prices/feeds'),

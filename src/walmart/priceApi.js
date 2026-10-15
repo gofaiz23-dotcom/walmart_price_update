@@ -30,13 +30,16 @@ async function unzipCsv(buffer) {
   return zip.files[csvName].async('nodebuffer');
 }
 
-export async function parseReportBuffer(buffer) {
+export async function csvRowsFromReportBuffer(buffer) {
   let csvBuffer = buffer;
   if (buffer.length >= 2 && buffer[0] === 0x50 && buffer[1] === 0x4b) {
     csvBuffer = await unzipCsv(buffer);
   }
-  const text = csvBuffer.toString('utf8');
-  return itemRowsFromReportCsv(parseCsv(text));
+  return parseCsv(csvBuffer.toString('utf8'));
+}
+
+export async function parseReportBuffer(buffer) {
+  return itemRowsFromReportCsv(await csvRowsFromReportBuffer(buffer));
 }
 
 export function createPriceApi(client) {
@@ -76,7 +79,7 @@ export function createPriceApi(client) {
     const statusBody = await getReportStatus(requestId);
     const status = extractRequestStatus(statusBody);
     if (FAILED_STATUSES.has(status)) {
-      throw new Error(`Walmart ITEM report ${requestId} failed (${status}).`);
+      throw new Error(`Walmart report ${requestId} failed (${status}).`);
     }
     let downloadUrl = extractDownloadUrl(statusBody);
     if (!downloadUrl) {
